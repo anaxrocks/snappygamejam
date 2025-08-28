@@ -1,0 +1,1794 @@
+fileFormatVersion: 2
+guid: 5ca89a6c92a10d64793c5d1effd4099f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 656961529462498222
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_0
+  - first:
+      213: -4363074469782117330
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_1
+  - first:
+      213: -8750114257010214771
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_2
+  - first:
+      213: -9221616608484714268
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_3
+  - first:
+      213: -1300382852053114627
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_4
+  - first:
+      213: -1780920280623106635
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_5
+  - first:
+      213: -8663635435284050485
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_6
+  - first:
+      213: -8061769590704060959
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_7
+  - first:
+      213: -5127407188516471800
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_8
+  - first:
+      213: -2636217835532283403
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_9
+  - first:
+      213: 5373307302622585619
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_10
+  - first:
+      213: 3172081035106461533
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_11
+  - first:
+      213: 4731949395536180436
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_12
+  - first:
+      213: 1527879459668033087
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_13
+  - first:
+      213: -7833746208272262514
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_14
+  - first:
+      213: -9094530810876378975
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_15
+  - first:
+      213: -1328650661725136691
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_16
+  - first:
+      213: -3545273041342901550
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_17
+  - first:
+      213: -5486759736832953465
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_18
+  - first:
+      213: -4730649059443967650
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_19
+  - first:
+      213: 3447991547146907760
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_20
+  - first:
+      213: 3131920028467144743
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_21
+  - first:
+      213: -5823927323471833713
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_22
+  - first:
+      213: 5047857955421728513
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_23
+  - first:
+      213: -7623273482126683878
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_24
+  - first:
+      213: -3229794055876277547
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_25
+  - first:
+      213: 2195541576016355941
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_26
+  - first:
+      213: -646812368784714313
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_27
+  - first:
+      213: -2108834780107750084
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_28
+  - first:
+      213: -2879763087946212453
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_29
+  - first:
+      213: -3443132453762376222
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_30
+  - first:
+      213: -191611243655971391
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_31
+  - first:
+      213: -6319373109184511380
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_32
+  - first:
+      213: -420307609137027079
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_33
+  - first:
+      213: 4999698145821680159
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_34
+  - first:
+      213: 7188938747322297124
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_35
+  - first:
+      213: -8990682708786736753
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_36
+  - first:
+      213: -8563935327372242921
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_37
+  - first:
+      213: 7378946869311316032
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_38
+  - first:
+      213: -6089311070065972365
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_39
+  - first:
+      213: -3874355804630888064
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_40
+  - first:
+      213: -3050857078302151847
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_41
+  - first:
+      213: 2870935638750578224
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_42
+  - first:
+      213: -544967165102852641
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_43
+  - first:
+      213: 3438891135564314991
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_44
+  - first:
+      213: -4012100244533361287
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_45
+  - first:
+      213: 6064967890061246964
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_46
+  - first:
+      213: -7902379427992890333
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_47
+  - first:
+      213: 3014987644020995868
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_48
+  - first:
+      213: 4021780229168642575
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_49
+  - first:
+      213: -6108066113525366174
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_50
+  - first:
+      213: 3216876803141851967
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_51
+  - first:
+      213: -7573533236520547210
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_52
+  - first:
+      213: -8720713311081600751
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_53
+  - first:
+      213: 7361116574928799071
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_54
+  - first:
+      213: -5288027603073165324
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_55
+  - first:
+      213: -4846225523703006021
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_56
+  - first:
+      213: -7378657827856847558
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_57
+  - first:
+      213: -6706375360352297186
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_58
+  - first:
+      213: -5643471632899878067
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_59
+  - first:
+      213: 4596486141090512153
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_60
+  - first:
+      213: 5768489754395091871
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_61
+  - first:
+      213: -420872331280237902
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_62
+  - first:
+      213: -8818851855090140267
+    second: NC1-4_NC1-4_2-SoftBlackWhiteBottles_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 95
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3a5b2c70ffd1900800000000000000
+      internalID: 656961529462498222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 111
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24af04e2ee3373c0800000000000000
+      internalID: -4363074469782117330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 111
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8833de7179519680800000000000000
+      internalID: -8750114257010214771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 95
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e81d648d8c360080800000000000000
+      internalID: -9221616608484714268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_4
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 95
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df06d5f8fac14fde0800000000000000
+      internalID: -1300382852053114627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_5
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 111
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5bb24c076e847e0800000000000000
+      internalID: -1780920280623106635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 95
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd4868397594c780800000000000000
+      internalID: -8663635435284050485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_7
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 111
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5c9053547de1090800000000000000
+      internalID: -8061769590704060959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_8
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 95
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80cf0b5045ac7d8b0800000000000000
+      internalID: -5127407188516471800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_9
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 111
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f19c8a88d54a6bd0800000000000000
+      internalID: -2636217835532283403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 111
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313e4d1d582d19a40800000000000000
+      internalID: 5373307302622585619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 95
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57264025ee750c20800000000000000
+      internalID: 3172081035106461533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 95
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4fe0087e24ba140800000000000000
+      internalID: 4731949395536180436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 111
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ef025064e143510800000000000000
+      internalID: 1527879459668033087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 95
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a5e5b1451f84390800000000000000
+      internalID: -7833746208272262514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_15
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 111
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a04ed2996cb9c180800000000000000
+      internalID: -9094530810876378975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8194d334faf8de0800000000000000
+      internalID: -1328650661725136691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_17
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 63
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2dcfad3f8accec0800000000000000
+      internalID: -3545273041342901550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 79
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783f726e61d1bd3b0800000000000000
+      internalID: -5486759736832953465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_19
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 63
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e597ec69ebb595eb0800000000000000
+      internalID: -4730649059443967650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_20
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 79
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070bd3c3b0ab9df20800000000000000
+      internalID: 3447991547146907760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 63
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72827b91ca0d67b20800000000000000
+      internalID: 3131920028467144743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 63
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8515cea4f04d2fa0800000000000000
+      internalID: -5823927323471833713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_23
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 79
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10faa85d0189d0640800000000000000
+      internalID: 5047857955421728513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_24
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 79
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a111f286821b43690800000000000000
+      internalID: -7623273482126683878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_25
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 63
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da83d91b677d23d0800000000000000
+      internalID: -3229794055876277547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_26
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 79
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5626e005e61287e10800000000000000
+      internalID: 2195541576016355941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_27
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 63
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5124ad39f0607f0800000000000000
+      internalID: -646812368784714313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_28
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 79
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3540b9c0f9ebb2e0800000000000000
+      internalID: -2108834780107750084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_29
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 63
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b1fa9aab60908d0800000000000000
+      internalID: -2879763087946212453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 63
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eddfda96498730d0800000000000000
+      internalID: -3443132453762376222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_31
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 79
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd3aeec692475df0800000000000000
+      internalID: -191611243655971391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_32
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 31
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62c6ef73a31d48a0800000000000000
+      internalID: -6319373109184511380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_33
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 47
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f76ef4d474ca2af0800000000000000
+      internalID: -420307609137027079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_34
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 47
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1261ed59fe726540800000000000000
+      internalID: 4999698145821680159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_35
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 31
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42bef2ab3bd34c360800000000000000
+      internalID: 7188938747322297124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_36
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 31
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81158606bdaa3380800000000000000
+      internalID: -8990682708786736753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_37
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 47
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7101f84813ac62980800000000000000
+      internalID: -8563935327372242921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 31
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04028c11519476660800000000000000
+      internalID: 7378946869311316032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_39
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 47
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b2dd528db6e7ba0800000000000000
+      internalID: -6089311070065972365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_40
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 31
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081d0834ce58b3ac0800000000000000
+      internalID: -3874355804630888064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_41
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 47
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b6053c6ad29a5d0800000000000000
+      internalID: -3050857078302151847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_42
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 47
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036ccb8a0cc97d720800000000000000
+      internalID: 2870935638750578224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_43
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 31
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5facd2043ef68f0800000000000000
+      internalID: -544967165102852641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_44
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 31
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69fc8c844569bf20800000000000000
+      internalID: 3438891135564314991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_45
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 47
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975c459a5182258c0800000000000000
+      internalID: -4012100244533361287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_46
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 31
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1404599281b2450800000000000000
+      internalID: 6064967890061246964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_47
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 47
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324112267cb155290800000000000000
+      internalID: -7902379427992890333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c173014c94367d920800000000000000
+      internalID: 3014987644020995868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_49
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a39446fcb30d730800000000000000
+      internalID: 4021780229168642575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_50
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 15
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26248be4b3acb3ba0800000000000000
+      internalID: -6108066113525366174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_51
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bd671a864a4ac20800000000000000
+      internalID: 3216876803141851967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_52
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 15
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c049ec5a765e690800000000000000
+      internalID: -7573533236520547210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_53
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119e5f8a27dc9f680800000000000000
+      internalID: -8720713311081600751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_54
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f550fd62680f72660800000000000000
+      internalID: 7361116574928799071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_55
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 15
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f71d5489e62d96b0800000000000000
+      internalID: -5288027603073165324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_56
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 15
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc3046009fbebcb0800000000000000
+      internalID: -4846225523703006021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_57
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3def63accdb99990800000000000000
+      internalID: -7378657827856847558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_58
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 15
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1fd4c3442b2ee2a0800000000000000
+      internalID: -6706375360352297186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_59
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d435205437c5ea1b0800000000000000
+      internalID: -5643471632899878067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_60
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 15
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91db4b6cacff9cf30800000000000000
+      internalID: 4596486141090512153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_61
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93233d6edacd0050800000000000000
+      internalID: 5768489754395091871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_62
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba304638d2c82af0800000000000000
+      internalID: -420872331280237902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NC1-4_NC1-4_2-SoftBlackWhiteBottles_63
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 15
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bbe8a46f42d9580800000000000000
+      internalID: -8818851855090140267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_0: 656961529462498222
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_1: -4363074469782117330
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_10: 5373307302622585619
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_11: 3172081035106461533
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_12: 4731949395536180436
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_13: 1527879459668033087
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_14: -7833746208272262514
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_15: -9094530810876378975
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_16: -1328650661725136691
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_17: -3545273041342901550
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_18: -5486759736832953465
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_19: -4730649059443967650
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_2: -8750114257010214771
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_20: 3447991547146907760
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_21: 3131920028467144743
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_22: -5823927323471833713
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_23: 5047857955421728513
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_24: -7623273482126683878
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_25: -3229794055876277547
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_26: 2195541576016355941
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_27: -646812368784714313
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_28: -2108834780107750084
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_29: -2879763087946212453
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_3: -9221616608484714268
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_30: -3443132453762376222
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_31: -191611243655971391
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_32: -6319373109184511380
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_33: -420307609137027079
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_34: 4999698145821680159
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_35: 7188938747322297124
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_36: -8990682708786736753
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_37: -8563935327372242921
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_38: 7378946869311316032
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_39: -6089311070065972365
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_4: -1300382852053114627
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_40: -3874355804630888064
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_41: -3050857078302151847
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_42: 2870935638750578224
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_43: -544967165102852641
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_44: 3438891135564314991
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_45: -4012100244533361287
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_46: 6064967890061246964
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_47: -7902379427992890333
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_48: 3014987644020995868
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_49: 4021780229168642575
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_5: -1780920280623106635
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_50: -6108066113525366174
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_51: 3216876803141851967
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_52: -7573533236520547210
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_53: -8720713311081600751
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_54: 7361116574928799071
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_55: -5288027603073165324
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_56: -4846225523703006021
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_57: -7378657827856847558
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_58: -6706375360352297186
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_59: -5643471632899878067
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_6: -8663635435284050485
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_60: 4596486141090512153
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_61: 5768489754395091871
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_62: -420872331280237902
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_63: -8818851855090140267
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_7: -8061769590704060959
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_8: -5127407188516471800
+      NC1-4_NC1-4_2-SoftBlackWhiteBottles_9: -2636217835532283403
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

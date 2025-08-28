@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: 7c8752ee12cb74646abfc549316770fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3572684189736584736
+    second: DB_2_2_Black-Stained-Glass_0
+  - first:
+      213: 1798001847673251555
+    second: DB_2_2_Black-Stained-Glass_1
+  - first:
+      213: 2516874012991869122
+    second: DB_2_2_Black-Stained-Glass_2
+  - first:
+      213: 6510153191034075846
+    second: DB_2_2_Black-Stained-Glass_3
+  - first:
+      213: 2209292627607956866
+    second: DB_2_2_Black-Stained-Glass_4
+  - first:
+      213: -2071064678531505919
+    second: DB_2_2_Black-Stained-Glass_5
+  - first:
+      213: -2696459652458443930
+    second: DB_2_2_Black-Stained-Glass_6
+  - first:
+      213: -5591126266985931093
+    second: DB_2_2_Black-Stained-Glass_7
+  - first:
+      213: -8448273039203176532
+    second: DB_2_2_Black-Stained-Glass_8
+  - first:
+      213: -6186499346421641171
+    second: DB_2_2_Black-Stained-Glass_9
+  - first:
+      213: -1976605976889640742
+    second: DB_2_2_Black-Stained-Glass_10
+  - first:
+      213: 37334875783831149
+    second: DB_2_2_Black-Stained-Glass_11
+  - first:
+      213: -7714756608520012784
+    second: DB_2_2_Black-Stained-Glass_12
+  - first:
+      213: 5853937245854598569
+    second: DB_2_2_Black-Stained-Glass_13
+  - first:
+      213: 4409920365144872629
+    second: DB_2_2_Black-Stained-Glass_14
+  - first:
+      213: 1709942934845962383
+    second: DB_2_2_Black-Stained-Glass_15
+  - first:
+      213: 8599863812076178569
+    second: DB_2_2_Black-Stained-Glass_16
+  - first:
+      213: 1423084700669051398
+    second: DB_2_2_Black-Stained-Glass_17
+  - first:
+      213: 6968499742309326933
+    second: DB_2_2_Black-Stained-Glass_18
+  - first:
+      213: 6523611706328148348
+    second: DB_2_2_Black-Stained-Glass_19
+  - first:
+      213: -134653442860540746
+    second: DB_2_2_Black-Stained-Glass_20
+  - first:
+      213: -490986537575276102
+    second: DB_2_2_Black-Stained-Glass_21
+  - first:
+      213: -2964462597149230478
+    second: DB_2_2_Black-Stained-Glass_22
+  - first:
+      213: 4801802113054579589
+    second: DB_2_2_Black-Stained-Glass_23
+  - first:
+      213: 812729414495484073
+    second: DB_2_2_Black-Stained-Glass_24
+  - first:
+      213: -2039081099772760983
+    second: DB_2_2_Black-Stained-Glass_25
+  - first:
+      213: -5944861620932453046
+    second: DB_2_2_Black-Stained-Glass_26
+  - first:
+      213: -7762411027462420714
+    second: DB_2_2_Black-Stained-Glass_27
+  - first:
+      213: 5658848092768704625
+    second: DB_2_2_Black-Stained-Glass_28
+  - first:
+      213: -3479663963338974778
+    second: DB_2_2_Black-Stained-Glass_29
+  - first:
+      213: 141554179714711288
+    second: DB_2_2_Black-Stained-Glass_30
+  - first:
+      213: 5428844791919618198
+    second: DB_2_2_Black-Stained-Glass_31
+  - first:
+      213: -8378979933878707279
+    second: DB_2_2_Black-Stained-Glass_32
+  - first:
+      213: -4825995156951107835
+    second: DB_2_2_Black-Stained-Glass_33
+  - first:
+      213: 3782833782938127744
+    second: DB_2_2_Black-Stained-Glass_34
+  - first:
+      213: 1686943665329825577
+    second: DB_2_2_Black-Stained-Glass_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9b81888a64b6ec0800000000000000
+      internalID: -3572684189736584736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e66f0c7729c3f810800000000000000
+      internalID: 1798001847673251555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0dac0749bbde220800000000000000
+      internalID: 2516874012991869122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca36f0c5d5b85a50800000000000000
+      internalID: 6510153191034075846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_4
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d267180fbf8ae10800000000000000
+      internalID: 2209292627607956866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_5
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1016549d5a91243e0800000000000000
+      internalID: -2071064678531505919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 50
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b8a088b30449ad0800000000000000
+      internalID: -2696459652458443930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 50
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae92f188445862b0800000000000000
+      internalID: -5591126266985931093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_8
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 50
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafe8c48e64b1ca80800000000000000
+      internalID: -8448273039203176532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d201a553f93252aa0800000000000000
+      internalID: -6186499346421641171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 31
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad83496265fa194e0800000000000000
+      internalID: -1976605976889640742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e14d82fd3a48000800000000000000
+      internalID: 37334875783831149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c31943dbdafe490800000000000000
+      internalID: -7714756608520012784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_13
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5879cd8ec5d3150800000000000000
+      internalID: 5853937245854598569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_14
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b69834153f233d30800000000000000
+      internalID: 4409920365144872629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 34
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88bea12a00fab710800000000000000
+      internalID: 1709942934845962383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_16
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 34
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c8983b29ad85770800000000000000
+      internalID: 8599863812076178569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_17
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 34
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6020ca4deffcfb310800000000000000
+      internalID: 1423084700669051398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550afbd489515b060800000000000000
+      internalID: 6968499742309326933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_19
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79e4488846888a50800000000000000
+      internalID: 6523611706328148348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc938a386d912ef0800000000000000
+      internalID: -134653442860540746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_21
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1a35e685aaf29f0800000000000000
+      internalID: -490986537575276102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_22
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27afcfa69fc1cd6d0800000000000000
+      internalID: -2964462597149230478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_23
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b965ea49d63a240800000000000000
+      internalID: 4801802113054579589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_24
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 18
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8b381b815674b00800000000000000
+      internalID: 812729414495484073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_25
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 18
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ce4d31b8ab3b3e0800000000000000
+      internalID: -2039081099772760983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_26
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 18
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4dd77d5adb9f7da0800000000000000
+      internalID: -5944861620932453046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617078b2c40664490800000000000000
+      internalID: -7762411027462420714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1781067cb54488e40800000000000000
+      internalID: 5658848092768704625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9d377bf00c5bfc0800000000000000
+      internalID: -3479663963338974778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_30
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fefd56c6c6e6f100800000000000000
+      internalID: 141554179714711288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_31
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69829133391275b40800000000000000
+      internalID: 5428844791919618198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_32
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb9805d422e7bb80800000000000000
+      internalID: -8378979933878707279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_33
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5077c2659fe960db0800000000000000
+      internalID: -4825995156951107835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_34
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08dcf5488435f7430800000000000000
+      internalID: 3782833782938127744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DB_2_2_Black-Stained-Glass_35
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9276418635a396710800000000000000
+      internalID: 1686943665329825577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DB_2_2_Black-Stained-Glass_0: -3572684189736584736
+      DB_2_2_Black-Stained-Glass_1: 1798001847673251555
+      DB_2_2_Black-Stained-Glass_10: -1976605976889640742
+      DB_2_2_Black-Stained-Glass_11: 37334875783831149
+      DB_2_2_Black-Stained-Glass_12: -7714756608520012784
+      DB_2_2_Black-Stained-Glass_13: 5853937245854598569
+      DB_2_2_Black-Stained-Glass_14: 4409920365144872629
+      DB_2_2_Black-Stained-Glass_15: 1709942934845962383
+      DB_2_2_Black-Stained-Glass_16: 8599863812076178569
+      DB_2_2_Black-Stained-Glass_17: 1423084700669051398
+      DB_2_2_Black-Stained-Glass_18: 6968499742309326933
+      DB_2_2_Black-Stained-Glass_19: 6523611706328148348
+      DB_2_2_Black-Stained-Glass_2: 2516874012991869122
+      DB_2_2_Black-Stained-Glass_20: -134653442860540746
+      DB_2_2_Black-Stained-Glass_21: -490986537575276102
+      DB_2_2_Black-Stained-Glass_22: -2964462597149230478
+      DB_2_2_Black-Stained-Glass_23: 4801802113054579589
+      DB_2_2_Black-Stained-Glass_24: 812729414495484073
+      DB_2_2_Black-Stained-Glass_25: -2039081099772760983
+      DB_2_2_Black-Stained-Glass_26: -5944861620932453046
+      DB_2_2_Black-Stained-Glass_27: -7762411027462420714
+      DB_2_2_Black-Stained-Glass_28: 5658848092768704625
+      DB_2_2_Black-Stained-Glass_29: -3479663963338974778
+      DB_2_2_Black-Stained-Glass_3: 6510153191034075846
+      DB_2_2_Black-Stained-Glass_30: 141554179714711288
+      DB_2_2_Black-Stained-Glass_31: 5428844791919618198
+      DB_2_2_Black-Stained-Glass_32: -8378979933878707279
+      DB_2_2_Black-Stained-Glass_33: -4825995156951107835
+      DB_2_2_Black-Stained-Glass_34: 3782833782938127744
+      DB_2_2_Black-Stained-Glass_35: 1686943665329825577
+      DB_2_2_Black-Stained-Glass_4: 2209292627607956866
+      DB_2_2_Black-Stained-Glass_5: -2071064678531505919
+      DB_2_2_Black-Stained-Glass_6: -2696459652458443930
+      DB_2_2_Black-Stained-Glass_7: -5591126266985931093
+      DB_2_2_Black-Stained-Glass_8: -8448273039203176532
+      DB_2_2_Black-Stained-Glass_9: -6186499346421641171
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

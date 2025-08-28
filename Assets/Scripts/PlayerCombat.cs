@@ -10,20 +10,20 @@ public class PlayerCombat : MonoBehaviour
     [Header("Combat Stats")]
     [SerializeField] private float _attackCooldown = 0.5f;
     [SerializeField] private int _maxCapacity = 10;
-    [SerializeField] private float _reloadTime = 2f;
-    
+
     [Header("Current Stats")]
-    [SerializeField] private int _currentAmmo;
+    [SerializeField] public int _currentAmmo = 0;
     [SerializeField] private bool _canAttack = true;
-    [SerializeField] private bool _isReloading = false;
     
     private Vector2 _lastMovementDirection = Vector2.down; // Default facing direction
     private PlayerMovement _playerMovement;
+    private Inventory _Inventory;
 
     void Awake()
     {
         _playerMovement = GetComponent<PlayerMovement>();
-        _currentAmmo = _maxCapacity;
+        _Inventory = GameObject.FindAnyObjectByType<Inventory>();
+        //_currentAmmo = _maxCapacity;
     }
 
     void Update()
@@ -34,15 +34,9 @@ public class PlayerCombat : MonoBehaviour
 
     private void HandleAttackInput()
     {
-        if (InputManager.attackPressed && _canAttack && !_isReloading && _currentAmmo > 0)
+        if (InputManager.attackPressed && _canAttack && _currentAmmo > 0 && !_Inventory.isSolid)
         {
             Attack();
-        }
-        
-        // Auto-reload when out of ammo
-        if (_currentAmmo <= 0 && !_isReloading)
-        {
-            StartReload();
         }
     }
 
@@ -80,25 +74,8 @@ public class PlayerCombat : MonoBehaviour
         _canAttack = true;
     }
 
-    public void StartReload()
-    {
-        if (!_isReloading && _currentAmmo < _maxCapacity)
-        {
-            StartCoroutine(ReloadCoroutine());
-        }
-    }
-
-    private IEnumerator ReloadCoroutine()
-    {
-        _isReloading = true;
-        yield return new WaitForSeconds(_reloadTime);
-        _currentAmmo = _maxCapacity;
-        _isReloading = false;
-    }
-
     // Public getters for UI
     public int CurrentAmmo => _currentAmmo;
     public int MaxCapacity => _maxCapacity;
-    public bool IsReloading => _isReloading;
     public bool CanAttack => _canAttack;
 }

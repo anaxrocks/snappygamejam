@@ -1,0 +1,1586 @@
+fileFormatVersion: 2
+guid: c6da064d64e0fe447839a388545a2bd7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5670910228519098124
+    second: Bottlecaps_V&D2_0
+  - first:
+      213: -8973393686928005310
+    second: Bottlecaps_V&D2_1
+  - first:
+      213: -5099983134953642498
+    second: Bottlecaps_V&D2_2
+  - first:
+      213: -3340179235926979496
+    second: Bottlecaps_V&D2_3
+  - first:
+      213: 6217668760473538326
+    second: Bottlecaps_V&D2_4
+  - first:
+      213: 7041410523809792908
+    second: Bottlecaps_V&D2_5
+  - first:
+      213: -7793369866772458740
+    second: Bottlecaps_V&D2_6
+  - first:
+      213: 4907713778355188454
+    second: Bottlecaps_V&D2_7
+  - first:
+      213: -6132327538497356933
+    second: Bottlecaps_V&D2_8
+  - first:
+      213: 3266445549831880351
+    second: Bottlecaps_V&D2_9
+  - first:
+      213: -2164097020808733612
+    second: Bottlecaps_V&D2_10
+  - first:
+      213: -7392554968756746323
+    second: Bottlecaps_V&D2_11
+  - first:
+      213: -6695271188839920979
+    second: Bottlecaps_V&D2_12
+  - first:
+      213: -8810697619042581933
+    second: Bottlecaps_V&D2_13
+  - first:
+      213: 7781139753632925603
+    second: Bottlecaps_V&D2_14
+  - first:
+      213: 521357505515683193
+    second: Bottlecaps_V&D2_15
+  - first:
+      213: -3774306748322038419
+    second: Bottlecaps_V&D2_16
+  - first:
+      213: -1401168878300288349
+    second: Bottlecaps_V&D2_17
+  - first:
+      213: -7815605914754862296
+    second: Bottlecaps_V&D2_18
+  - first:
+      213: -2882272584959391074
+    second: Bottlecaps_V&D2_19
+  - first:
+      213: 8883489230512114662
+    second: Bottlecaps_V&D2_20
+  - first:
+      213: -3346553105722324394
+    second: Bottlecaps_V&D2_21
+  - first:
+      213: -315605778850794555
+    second: Bottlecaps_V&D2_22
+  - first:
+      213: 972836214779465178
+    second: Bottlecaps_V&D2_23
+  - first:
+      213: -3039455838633994931
+    second: Bottlecaps_V&D2_24
+  - first:
+      213: -5918135971551545357
+    second: Bottlecaps_V&D2_25
+  - first:
+      213: -2992900330946503134
+    second: Bottlecaps_V&D2_26
+  - first:
+      213: -8551537873309534606
+    second: Bottlecaps_V&D2_27
+  - first:
+      213: 9222406355425033072
+    second: Bottlecaps_V&D2_28
+  - first:
+      213: 5126567665444732864
+    second: Bottlecaps_V&D2_29
+  - first:
+      213: -4198463722470333942
+    second: Bottlecaps_V&D2_30
+  - first:
+      213: -1409522253669541428
+    second: Bottlecaps_V&D2_31
+  - first:
+      213: -7492309188804429685
+    second: Bottlecaps_V&D2_32
+  - first:
+      213: -1023015610992238813
+    second: Bottlecaps_V&D2_33
+  - first:
+      213: 3729210947625545634
+    second: Bottlecaps_V&D2_34
+  - first:
+      213: 5535227057215452641
+    second: Bottlecaps_V&D2_35
+  - first:
+      213: 3378741243493318795
+    second: Bottlecaps_V&D2_36
+  - first:
+      213: 1840245084281124316
+    second: Bottlecaps_V&D2_37
+  - first:
+      213: -942821734419013174
+    second: Bottlecaps_V&D2_38
+  - first:
+      213: 4867480434618971494
+    second: Bottlecaps_V&D2_39
+  - first:
+      213: 2543138474643282776
+    second: Bottlecaps_V&D2_40
+  - first:
+      213: 9150220517518360263
+    second: Bottlecaps_V&D2_41
+  - first:
+      213: -1681878991037908630
+    second: Bottlecaps_V&D2_42
+  - first:
+      213: -4276453742677725420
+    second: Bottlecaps_V&D2_43
+  - first:
+      213: 508138835768638053
+    second: Bottlecaps_V&D2_44
+  - first:
+      213: -5816715822775241377
+    second: Bottlecaps_V&D2_45
+  - first:
+      213: 8520954037823021296
+    second: Bottlecaps_V&D2_46
+  - first:
+      213: 6266097178016902680
+    second: Bottlecaps_V&D2_47
+  - first:
+      213: -6902664745148130439
+    second: Bottlecaps_V&D2_48
+  - first:
+      213: -3788582765206981711
+    second: Bottlecaps_V&D2_49
+  - first:
+      213: -8210423000692547433
+    second: Bottlecaps_V&D2_50
+  - first:
+      213: 5105312025733419989
+    second: Bottlecaps_V&D2_51
+  - first:
+      213: 3370299121861423804
+    second: Bottlecaps_V&D2_52
+  - first:
+      213: -3151548618739355225
+    second: Bottlecaps_V&D2_53
+  - first:
+      213: 2443166049428705367
+    second: Bottlecaps_V&D2_54
+  - first:
+      213: 7209421287844563091
+    second: Bottlecaps_V&D2_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 70
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f86df36131ec41b0800000000000000
+      internalID: -5670910228519098124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2476cec1cf9187380800000000000000
+      internalID: -8973393686928005310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 86
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5ea901c583939b0800000000000000
+      internalID: -5099983134953642498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 86
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ccf649eac45a1d0800000000000000
+      internalID: -3340179235926979496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f81178bc8994650800000000000000
+      internalID: 6217668760473538326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_5
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83416d709d18b160800000000000000
+      internalID: 7041410523809792908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_6
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c035bcfa56368d390800000000000000
+      internalID: -7793369866772458740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_7
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 70
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2b622eda3bb1440800000000000000
+      internalID: 4907713778355188454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 86
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7bf48d189895eaa0800000000000000
+      internalID: -6132327538497356933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 70
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e72e3dbeeb45d20800000000000000
+      internalID: 3266445549831880351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 70
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45cd637b93597f1e0800000000000000
+      internalID: -2164097020808733612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_11
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 70
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da784b06c6e586990800000000000000
+      internalID: -7392554968756746323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 70
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa0a4aa35e9513a0800000000000000
+      internalID: -6695271188839920979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 54
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3524691523d1ab580800000000000000
+      internalID: -8810697619042581933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_14
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 70
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a706f231692cfb60800000000000000
+      internalID: 7781139753632925603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_15
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 70
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97dfe3593eb3c3700800000000000000
+      internalID: 521357505515683193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_16
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 70
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6db7e07208fe9bc0800000000000000
+      internalID: -3774306748322038419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 54
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa2492345c0e8ce0800000000000000
+      internalID: -1401168878300288349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_18
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 54
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823389254d3698390800000000000000
+      internalID: -7815605914754862296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_19
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 54
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a06abda5c1008d0800000000000000
+      internalID: -2882272584959391074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_20
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 54
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebceae636e784b70800000000000000
+      internalID: 8883489230512114662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_21
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 54
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ac07f5ea7ae81d0800000000000000
+      internalID: -3346553105722324394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_22
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 54
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3b98e573ebe9bf0800000000000000
+      internalID: -315605778850794555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_23
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 54
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: addc09e0265308d00800000000000000
+      internalID: 972836214779465178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_24
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 54
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45dbbbb40fa1d5d0800000000000000
+      internalID: -3039455838633994931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_25
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 54
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7753380be8edda0800000000000000
+      internalID: -5918135971551545357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_26
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 38
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ed8cd81051776d0800000000000000
+      internalID: -2992900330946503134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_27
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 38
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276f51abc95d25980800000000000000
+      internalID: -8551537873309534606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_28
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 38
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07bf965c7b19cff70800000000000000
+      internalID: 9222406355425033072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_29
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 38
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf36d7412a352740800000000000000
+      internalID: 5126567665444732864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_30
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 38
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02aac32d7f0cb5c0800000000000000
+      internalID: -4198463722470333942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_31
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 38
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9d40f6afe507ce0800000000000000
+      internalID: -1409522253669541428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_32
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 38
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88baed1d78f50890800000000000000
+      internalID: -7492309188804429685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_33
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 38
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32fd023d8b48dc1f0800000000000000
+      internalID: -1023015610992238813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_34
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 38
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afe7b14991d0c330800000000000000
+      internalID: 3729210947625545634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_35
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 38
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e535708ea311dc40800000000000000
+      internalID: 5535227057215452641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8081667243b3ee20800000000000000
+      internalID: 3378741243493318795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_37
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd53c34772dd98910800000000000000
+      internalID: 1840245084281124316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_38
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1ef69b0ac6ae2f0800000000000000
+      internalID: -942821734419013174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_39
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665b0a09aa3cc8340800000000000000
+      internalID: 4867480434618971494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_40
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85bddb3f7fa0b4320800000000000000
+      internalID: 2543138474643282776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_41
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce3c2ba41d1cfe70800000000000000
+      internalID: 9150220517518360263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_42
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a693ef7f7f3c8a8e0800000000000000
+      internalID: -1681878991037908630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_43
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fed498afbf6a4c0800000000000000
+      internalID: -4276453742677725420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_44
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56af19234954d0700800000000000000
+      internalID: 508138835768638053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_45
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 22
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55761807cfd64fa0800000000000000
+      internalID: -5816715822775241377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_46
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f02fdb2d82804670800000000000000
+      internalID: 8520954037823021296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_47
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 6
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e66c72f26a5f650800000000000000
+      internalID: 6266097178016902680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_48
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 6
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b55d57cfec430a0800000000000000
+      internalID: -6902664745148130439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_49
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 6
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3bbad3c004c6bc0800000000000000
+      internalID: -3788582765206981711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_50
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790260418c7be0e80800000000000000
+      internalID: -8210423000692547433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_51
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3de510d36b9d640800000000000000
+      internalID: 5105312025733419989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_52
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 6
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb27c59d135b5ce20800000000000000
+      internalID: 3370299121861423804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_53
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 6
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1faa79a337344d0800000000000000
+      internalID: -3151548618739355225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_54
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 6
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7501e77d39ed7e120800000000000000
+      internalID: 2443166049428705367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bottlecaps_V&D2_55
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 6
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3984d12d6720d0460800000000000000
+      internalID: 7209421287844563091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bottlecaps_V&D2_0: -5670910228519098124
+      Bottlecaps_V&D2_1: -8973393686928005310
+      Bottlecaps_V&D2_10: -2164097020808733612
+      Bottlecaps_V&D2_11: -7392554968756746323
+      Bottlecaps_V&D2_12: -6695271188839920979
+      Bottlecaps_V&D2_13: -8810697619042581933
+      Bottlecaps_V&D2_14: 7781139753632925603
+      Bottlecaps_V&D2_15: 521357505515683193
+      Bottlecaps_V&D2_16: -3774306748322038419
+      Bottlecaps_V&D2_17: -1401168878300288349
+      Bottlecaps_V&D2_18: -7815605914754862296
+      Bottlecaps_V&D2_19: -2882272584959391074
+      Bottlecaps_V&D2_2: -5099983134953642498
+      Bottlecaps_V&D2_20: 8883489230512114662
+      Bottlecaps_V&D2_21: -3346553105722324394
+      Bottlecaps_V&D2_22: -315605778850794555
+      Bottlecaps_V&D2_23: 972836214779465178
+      Bottlecaps_V&D2_24: -3039455838633994931
+      Bottlecaps_V&D2_25: -5918135971551545357
+      Bottlecaps_V&D2_26: -2992900330946503134
+      Bottlecaps_V&D2_27: -8551537873309534606
+      Bottlecaps_V&D2_28: 9222406355425033072
+      Bottlecaps_V&D2_29: 5126567665444732864
+      Bottlecaps_V&D2_3: -3340179235926979496
+      Bottlecaps_V&D2_30: -4198463722470333942
+      Bottlecaps_V&D2_31: -1409522253669541428
+      Bottlecaps_V&D2_32: -7492309188804429685
+      Bottlecaps_V&D2_33: -1023015610992238813
+      Bottlecaps_V&D2_34: 3729210947625545634
+      Bottlecaps_V&D2_35: 5535227057215452641
+      Bottlecaps_V&D2_36: 3378741243493318795
+      Bottlecaps_V&D2_37: 1840245084281124316
+      Bottlecaps_V&D2_38: -942821734419013174
+      Bottlecaps_V&D2_39: 4867480434618971494
+      Bottlecaps_V&D2_4: 6217668760473538326
+      Bottlecaps_V&D2_40: 2543138474643282776
+      Bottlecaps_V&D2_41: 9150220517518360263
+      Bottlecaps_V&D2_42: -1681878991037908630
+      Bottlecaps_V&D2_43: -4276453742677725420
+      Bottlecaps_V&D2_44: 508138835768638053
+      Bottlecaps_V&D2_45: -5816715822775241377
+      Bottlecaps_V&D2_46: 8520954037823021296
+      Bottlecaps_V&D2_47: 6266097178016902680
+      Bottlecaps_V&D2_48: -6902664745148130439
+      Bottlecaps_V&D2_49: -3788582765206981711
+      Bottlecaps_V&D2_5: 7041410523809792908
+      Bottlecaps_V&D2_50: -8210423000692547433
+      Bottlecaps_V&D2_51: 5105312025733419989
+      Bottlecaps_V&D2_52: 3370299121861423804
+      Bottlecaps_V&D2_53: -3151548618739355225
+      Bottlecaps_V&D2_54: 2443166049428705367
+      Bottlecaps_V&D2_55: 7209421287844563091
+      Bottlecaps_V&D2_6: -7793369866772458740
+      Bottlecaps_V&D2_7: 4907713778355188454
+      Bottlecaps_V&D2_8: -6132327538497356933
+      Bottlecaps_V&D2_9: 3266445549831880351
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

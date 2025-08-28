@@ -4,7 +4,7 @@ public class Projectile : MonoBehaviour
 {
     [SerializeField] private float _speed = 10f;
     [SerializeField] private float _lifetime = 5f;
-    [SerializeField] private int _damage = 1;
+    [SerializeField] public int _damage = 1;
     private Vector2 _direction;
     private Rigidbody2D _rb;
 
@@ -37,7 +37,7 @@ public class Projectile : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        else if (other.CompareTag("Wall"))
+        else if (other.CompareTag("Walls"))
         {
             Destroy(gameObject);
         }

@@ -9,12 +9,14 @@ public class InputManager : MonoBehaviour
     public static bool interactionPressed;
     public static bool consumePressed;
     public static bool throwPressed;
+    public static bool restartPressed;
     private PlayerInput _playerInput;
     private InputAction _moveAction;
     private InputAction _attackAction;
     private InputAction _interactAction;
     private InputAction _consumeAction;
     private InputAction _throwAction;
+    private InputAction _restartAction;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -25,6 +27,7 @@ public class InputManager : MonoBehaviour
         _interactAction = _playerInput.actions["Interact"];
         _consumeAction = _playerInput.actions["Consume"];
         _throwAction = _playerInput.actions["Throw"];
+        _restartAction = _playerInput.actions["Restart"];
     }
 
     // Update is called once per frame
@@ -35,5 +38,6 @@ public class InputManager : MonoBehaviour
         interactionPressed = _interactAction.WasPressedThisFrame();
         consumePressed = _consumeAction.WasPressedThisFrame();
         throwPressed = _throwAction.WasPressedThisFrame();
+        restartPressed = _restartAction.WasPressedThisFrame();
     }
 }

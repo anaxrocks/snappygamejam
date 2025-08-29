@@ -49,6 +49,7 @@ public class Inventory : MonoBehaviour
             Color currentAlpha = spriteRenderer.color;
             spriteRenderer.color = new Color(currentAlpha.r, currentAlpha.g, currentAlpha.b, 0.7f);
             _camera.transform.SetParent(_player.transform);
+            SoundManager.Instance.PlaySound2D("Pickup");
         }
     }
 
@@ -64,6 +65,7 @@ public class Inventory : MonoBehaviour
             Debug.Log("amount: " + amount + "ammo: " + playerCombat._currentAmmo);
             Destroy(itemHeld);
             _camera.transform.parent = null;
+            SoundManager.Instance.PlaySound2D("Consume");
         }
     }
 
@@ -72,10 +74,12 @@ public class Inventory : MonoBehaviour
         if (isSolid)
         {
             isSolid = false;
-            Destroy(itemHeld);
             Color currentAlpha = spriteRenderer.color;
             spriteRenderer.color = new Color(currentAlpha.r, currentAlpha.g, currentAlpha.b, 1f);
+            itemHeld.transform.parent = null;
             _camera.transform.parent = null;
+            itemHeld = null;
+            SoundManager.Instance.PlaySound2D("Drop");
         }
     }
 }

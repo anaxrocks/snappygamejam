@@ -62,6 +62,8 @@ public class PlayerCombat : MonoBehaviour
 
         // Consume ammo
         _currentAmmo--;
+
+        SoundManager.Instance.PlaySound2D("Shoot");
         
         // Start cooldown
         StartCoroutine(AttackCooldown());

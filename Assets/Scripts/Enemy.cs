@@ -13,6 +13,8 @@ public class Enemy : MonoBehaviour
     private Collider2D _collider;
     private SpriteRenderer spriteRenderer;
     private Rigidbody2D rb;
+    private float trapDamageInterval = 1f; // seconds between ticks
+    private float trapDamageTimer = 0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -29,14 +31,18 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         if (currHealth <= 0)
-            {
-                _collider.enabled = false;
-                sliderBG.enabled = false;
-                animator.SetTrigger("Die");
-            }
+        {
+            _collider.enabled = false;
+            sliderBG.enabled = false;
+            animator.SetTrigger("Die");
+        }
         if (!spriteRenderer.enabled)
         {
             Destroy(gameObject);
+        }
+        if (trapDamageTimer > 0f)
+        {
+            trapDamageTimer -= Time.deltaTime;
         }
     }
 
@@ -56,8 +62,26 @@ public class Enemy : MonoBehaviour
         {
             Projectile projectile = other.GetComponent<Projectile>();
             int damage = projectile._damage;
-            currHealth -= damage;
-            slider.fillAmount = currHealth / baseHealth;
+            TakeDamage(damage);
         }
+    }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("Trap") && trapDamageTimer <= 0f)
+        {
+            Trap _trap = other.GetComponent<Trap>();
+            float damage = _trap.damage;
+            TakeDamage(damage);
+
+            trapDamageTimer = trapDamageInterval;
+        }
+    }
+
+    private void TakeDamage(float damage)
+    {
+        currHealth -= damage;
+        currHealth = Mathf.Max(currHealth, 0); 
+        slider.fillAmount = currHealth / baseHealth;
     }
 }

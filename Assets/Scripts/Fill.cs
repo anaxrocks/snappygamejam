@@ -26,12 +26,14 @@ public class Fill : MonoBehaviour
                 liquid.fillAmount = 0.65f;
                 isFilled = true;
                 _player.SetActive(false);
+                SoundManager.Instance.PlaySound2D("Fill");
             }
-            else
+            else if (!_player.activeInHierarchy)
             {
                 liquid.fillAmount = 0f;
                 isFilled = false;
                 _player.SetActive(true);
+                SoundManager.Instance.PlaySound2D("Exit");
             }
         }
     }

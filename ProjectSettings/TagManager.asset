@@ -9,6 +9,8 @@ TagManager:
   - Projectile
   - Door
   - Trap
+  - Item
+  - Floor
   layers:
   - Default
   - TransparentFX

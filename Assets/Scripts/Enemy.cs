@@ -1,8 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
+    NavMeshAgent agent;
     public float baseHealth;
     private float currHealth;
     private GameObject target;
@@ -19,6 +21,9 @@ public class Enemy : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
+        agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
         target = GameObject.FindGameObjectWithTag("Player");
         currHealth = baseHealth;
         animator = GetComponent<Animator>();
@@ -30,6 +35,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        agent.SetDestination(target.transform.position);
         if (currHealth <= 0)
         {
             _collider.enabled = false;
@@ -48,12 +54,12 @@ public class Enemy : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (target.activeInHierarchy)
-        {
-            Vector2 direction = ((Vector2)target.transform.position - rb.position).normalized;
-            Vector2 newPos = rb.position + direction * speed * Time.fixedDeltaTime;
-            rb.MovePosition(newPos);
-        }
+        // if (target.activeInHierarchy)
+        // {
+        //     Vector2 direction = ((Vector2)target.transform.position - rb.position).normalized;
+        //     Vector2 newPos = rb.position + direction * speed * Time.fixedDeltaTime;
+        //     rb.MovePosition(newPos);
+        // }
     }
 
     void OnTriggerEnter2D(Collider2D other)

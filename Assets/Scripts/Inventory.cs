@@ -42,13 +42,10 @@ public class Inventory : MonoBehaviour
     {
         if (!isSolid)
         {
-            isSolid = true;
             itemHeld = item;
-            item.transform.SetParent(gameObject.transform);
-            item.transform.localPosition = new Vector3(0, 0, 0);
-            Color currentAlpha = spriteRenderer.color;
-            spriteRenderer.color = new Color(currentAlpha.r, currentAlpha.g, currentAlpha.b, 0.7f);
-            _camera.transform.SetParent(_player.transform);
+            itemHeld.transform.SetParent(gameObject.transform);
+            itemHeld.transform.localPosition = new Vector3(0, 0, 0);
+            ChangeState();
             SoundManager.Instance.PlaySound2D("Pickup");
         }
     }
@@ -57,14 +54,10 @@ public class Inventory : MonoBehaviour
     {
         if (isSolid)
         {
-            isSolid = false;
-            Color currentAlpha = spriteRenderer.color;
-            spriteRenderer.color = new Color(currentAlpha.r, currentAlpha.g, currentAlpha.b, 1f);
+            ChangeState();
             int amount = itemHeld.GetComponent<Interactable>().consumableAmount;
             playerCombat._currentAmmo += amount;
-            Debug.Log("amount: " + amount + "ammo: " + playerCombat._currentAmmo);
             Destroy(itemHeld);
-            _camera.transform.parent = null;
             SoundManager.Instance.PlaySound2D("Consume");
         }
     }
@@ -73,13 +66,27 @@ public class Inventory : MonoBehaviour
     {
         if (isSolid)
         {
-            isSolid = false;
-            Color currentAlpha = spriteRenderer.color;
-            spriteRenderer.color = new Color(currentAlpha.r, currentAlpha.g, currentAlpha.b, 1f);
+            ChangeState();
             itemHeld.transform.parent = null;
-            _camera.transform.parent = null;
             itemHeld = null;
             SoundManager.Instance.PlaySound2D("Drop");
         }
+    }
+
+    public void ChangeState()
+    {
+        if (isSolid)
+        {
+            Color currentAlpha = spriteRenderer.color;
+            spriteRenderer.color = new Color(currentAlpha.r, currentAlpha.g, currentAlpha.b, 1f);
+            _camera.transform.parent = null;
+        }
+        else
+        {
+            Color currentAlpha = spriteRenderer.color;
+            spriteRenderer.color = new Color(currentAlpha.r, currentAlpha.g, currentAlpha.b, 0.7f);
+            _camera.transform.SetParent(_player.transform);
+        }
+        isSolid = !isSolid;
     }
 }

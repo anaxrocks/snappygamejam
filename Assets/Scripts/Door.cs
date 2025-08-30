@@ -3,13 +3,16 @@ using UnityEngine.Rendering;
 
 public class Door : MonoBehaviour
 {
+    public bool isOpen = false;
     private Collider2D _collider;
     private Inventory _inventory;
+    private Animator _animator;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         _collider = GetComponent<Collider2D>();
         _inventory = GameObject.FindAnyObjectByType<Inventory>();
+        _animator = GetComponent<Animator>();
     }
 
     // void OnCollisionEnter2D(Collision2D collision)
@@ -22,7 +25,8 @@ public class Door : MonoBehaviour
 
     void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player") && !_inventory.isSolid)
+        if ((collision.gameObject.CompareTag("Player") && !_inventory.isSolid)
+            || isOpen)
         {
             _collider.isTrigger = true;
         }
@@ -34,5 +38,11 @@ public class Door : MonoBehaviour
         {
             _collider.isTrigger = false;
         }
+    }
+
+    public void ActivateDoor()
+    {
+        isOpen = !isOpen;
+        _animator.SetBool("isOpen", isOpen);
     }
 }

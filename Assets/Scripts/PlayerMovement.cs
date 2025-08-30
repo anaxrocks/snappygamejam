@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     private const string _vertical = "Vertical";
     private const string _LastHorizontal = "LastHorizontal";
     private const string _LastVertical = "LastVertical";
+    public bool isFalling = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {

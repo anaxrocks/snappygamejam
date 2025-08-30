@@ -17,6 +17,8 @@ public class Inventory : MonoBehaviour
         playerCombat = GameObject.FindAnyObjectByType<PlayerCombat>();
         _player = GameObject.FindGameObjectWithTag("Player");
         _camera = GameObject.FindGameObjectWithTag("MainCamera");
+        _camera.transform.SetParent(_player.transform);
+
     }
 
     // Update is called once per frame

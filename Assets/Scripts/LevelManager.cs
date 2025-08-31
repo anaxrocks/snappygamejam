@@ -4,9 +4,19 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public static LevelManager Instance;
+
+    private void Awake()
     {
-        
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
     }
 
     // Update is called once per frame
@@ -14,7 +24,12 @@ public class LevelManager : MonoBehaviour
     {
         if (InputManager.restartPressed)
         {
-            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+            RestartScene();
         }
+    }
+
+    public void RestartScene()
+    {
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
     }
 }

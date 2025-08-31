@@ -5,6 +5,7 @@ using UnityEngine.AI;
 public class EnemyType : MonoBehaviour
 {
     private GameObject target;
+    private Animator _animator;
     public bool pathfind = false;
     public bool patrol = false;
     public Transform[] points;
@@ -25,7 +26,7 @@ public class EnemyType : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
-        
+
         target = GameObject.FindGameObjectWithTag("Player");
 
         if (patrol)
@@ -33,6 +34,8 @@ public class EnemyType : MonoBehaviour
             agent.autoBraking = false;
             GotoNextPoint();
         }
+        _animator = GetComponent<Animator>();
+        _animator.SetBool("isWalking", true); // might need ot change if enemies r idle
     }
 
     void GotoNextPoint()
@@ -47,8 +50,7 @@ public class EnemyType : MonoBehaviour
 
     void Update()
     {
-        // Simple pathfinding behavior (unchanged)
-        if (pathfind && !patrol)
+        if (pathfind && target.activeInHierarchy)
         {
             agent.SetDestination(target.transform.position);
             return;
@@ -105,8 +107,9 @@ public class EnemyType : MonoBehaviour
 
     bool IsPlayerWithinPatrolArea()
     {
+        if (!target.activeInHierarchy) return false;
         if (points.Length < 2) return true; // If no proper patrol path, allow chasing
-        
+
         // Find the closest point on the patrol path to the player
         Vector3 closestPoint = GetClosestPointOnPatrolPath(target.transform.position);
         

@@ -153,7 +153,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -218,12 +218,12 @@ TextureImporter:
       name: Golem_1_die_0
       rect:
         serializedVersion: 2
-        x: 26
+        x: 0
         y: 0
-        width: 38
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -240,12 +240,12 @@ TextureImporter:
       name: Golem_1_die_1
       rect:
         serializedVersion: 2
-        x: 116
+        x: 90
         y: 0
-        width: 39
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -262,12 +262,12 @@ TextureImporter:
       name: Golem_1_die_2
       rect:
         serializedVersion: 2
-        x: 205
+        x: 180
         y: 0
-        width: 41
-        height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -284,12 +284,12 @@ TextureImporter:
       name: Golem_1_die_3
       rect:
         serializedVersion: 2
-        x: 378
+        x: 270
         y: 0
-        width: 55
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -306,12 +306,12 @@ TextureImporter:
       name: Golem_1_die_4
       rect:
         serializedVersion: 2
-        x: 467
+        x: 360
         y: 0
-        width: 57
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -328,12 +328,12 @@ TextureImporter:
       name: Golem_1_die_5
       rect:
         serializedVersion: 2
-        x: 555
+        x: 450
         y: 0
-        width: 59
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -350,12 +350,12 @@ TextureImporter:
       name: Golem_1_die_6
       rect:
         serializedVersion: 2
-        x: 644
+        x: 540
         y: 0
-        width: 61
-        height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -372,12 +372,12 @@ TextureImporter:
       name: Golem_1_die_7
       rect:
         serializedVersion: 2
-        x: 734
+        x: 630
         y: 0
-        width: 62
-        height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -394,12 +394,12 @@ TextureImporter:
       name: Golem_1_die_8
       rect:
         serializedVersion: 2
-        x: 824
+        x: 720
         y: 0
-        width: 62
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -416,12 +416,12 @@ TextureImporter:
       name: Golem_1_die_9
       rect:
         serializedVersion: 2
-        x: 915
+        x: 810
         y: 0
-        width: 61
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -438,12 +438,12 @@ TextureImporter:
       name: Golem_1_die_10
       rect:
         serializedVersion: 2
-        x: 1026
+        x: 900
         y: 0
-        width: 30
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -457,23 +457,23 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golem_1_die_35
+      name: Golem_1_die_11
       rect:
         serializedVersion: 2
-        x: 293
+        x: 990
         y: 0
-        width: 44
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a54e375bbf31c884c809283b81b36c2d
-      internalID: 534403869
+      spriteID: 37137e7569467194db920b40b35ef006
+      internalID: 2748754730160506800
       vertices: []
       indices: 
       edges: []
@@ -492,38 +492,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":90.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Golem_1_die_0: -3499944936518720492
       Golem_1_die_1: 2766055293292107051
       Golem_1_die_10: 3235447156533904297
       Golem_1_die_11: 2748754730160506800
-      Golem_1_die_12: 4939873489552548844
-      Golem_1_die_13: 6585329745343848974
-      Golem_1_die_14: -2299476301834658063
-      Golem_1_die_15: 8326102325798928904
-      Golem_1_die_16: -3966987689900825244
-      Golem_1_die_17: 4995558060673151396
-      Golem_1_die_18: -7370445881969581563
-      Golem_1_die_19: -436326066663290158
       Golem_1_die_2: -6396591571823419708
-      Golem_1_die_20: -5520250034889243809
-      Golem_1_die_21: 8056609086297106070
-      Golem_1_die_22: 5257511135304682010
-      Golem_1_die_23: -6627988070023083533
-      Golem_1_die_24: 3842633016999177900
-      Golem_1_die_25: -4271488879998390822
-      Golem_1_die_26: 7121773239064227505
-      Golem_1_die_27: 4897008373694711551
-      Golem_1_die_28: 1921323288855611925
-      Golem_1_die_29: 4179644456496986321
       Golem_1_die_3: 2859483638002222463
-      Golem_1_die_30: 8073877965380687795
-      Golem_1_die_31: -1780916263551375620
-      Golem_1_die_32: 4773439375004723005
-      Golem_1_die_33: -457040906902760376
-      Golem_1_die_34: 6904830870619871899
-      Golem_1_die_35: 534403869
       Golem_1_die_4: 1903348830397019602
       Golem_1_die_5: -6324878056589696706
       Golem_1_die_6: 7942699683240710454

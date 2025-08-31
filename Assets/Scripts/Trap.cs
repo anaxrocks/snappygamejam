@@ -4,9 +4,11 @@ public class Trap : MonoBehaviour
 {
     private Animator animator;
     public float damage;
+    private Inventory _inventory;
 
     void Awake()
     {
+        _inventory = FindFirstObjectByType<Inventory>();
         animator = GetComponent<Animator>();
     }
 
@@ -15,6 +17,10 @@ public class Trap : MonoBehaviour
         if (collision.CompareTag("Player") || collision.CompareTag("Enemy"))
         {
             animator.SetBool("inRange", true);
+        }
+        if (collision.CompareTag("Player") && _inventory.isSolid)
+        {
+            LevelManager.Instance.RestartScene();
         }
     }
 

@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -137,12 +137,12 @@ TextureImporter:
       name: Golem_1_idle_0
       rect:
         serializedVersion: 2
-        x: 25
+        x: 0
         y: 0
-        width: 40
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,19 +159,19 @@ TextureImporter:
       name: Golem_1_idle_1
       rect:
         serializedVersion: 2
-        x: 115
+        x: 90
         y: 0
-        width: 40
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1ac5c36c4f0bdc5b0800000000000000
+      spriteID: bb179f05276415947bf836019e335374
       internalID: -5346422617274557279
       vertices: []
       indices: 
@@ -181,19 +181,19 @@ TextureImporter:
       name: Golem_1_idle_2
       rect:
         serializedVersion: 2
-        x: 205
+        x: 180
         y: 0
-        width: 40
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 157011e3fe23bc7c0800000000000000
+      spriteID: 009149e1b9764084a88d1c63f4a9bddb
       internalID: -4050087436769753263
       vertices: []
       indices: 
@@ -203,19 +203,19 @@ TextureImporter:
       name: Golem_1_idle_3
       rect:
         serializedVersion: 2
-        x: 295
+        x: 270
         y: 0
-        width: 40
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 291d0654235480ca0800000000000000
+      spriteID: f9b2cf5f20724804d81da8159b5343e5
       internalID: -6050510017157607022
       vertices: []
       indices: 
@@ -225,19 +225,19 @@ TextureImporter:
       name: Golem_1_idle_4
       rect:
         serializedVersion: 2
-        x: 385
+        x: 360
         y: 0
-        width: 41
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2c1c56252a9201fc0800000000000000
+      spriteID: 61b6d332c9453f44b956cb2f2cc4c871
       internalID: -3526272731087257150
       vertices: []
       indices: 
@@ -247,19 +247,19 @@ TextureImporter:
       name: Golem_1_idle_5
       rect:
         serializedVersion: 2
-        x: 475
+        x: 450
         y: 0
-        width: 41
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1db3f0050fd278ef0800000000000000
+      spriteID: e09333a8ec062d242a13aedbd09cc132
       internalID: -106065556061340719
       vertices: []
       indices: 
@@ -269,19 +269,19 @@ TextureImporter:
       name: Golem_1_idle_6
       rect:
         serializedVersion: 2
-        x: 565
+        x: 540
         y: 0
-        width: 40
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 52cbde6a06b05b060800000000000000
+      spriteID: ebb1dd2ebf1304a468edf08a4d272827
       internalID: 6968488508171074597
       vertices: []
       indices: 
@@ -291,19 +291,19 @@ TextureImporter:
       name: Golem_1_idle_7
       rect:
         serializedVersion: 2
-        x: 655
+        x: 630
         y: 0
-        width: 40
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 90
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dd1d0f6c2a48f0c60800000000000000
+      spriteID: a38ff5fd1f9e42040814a5d6999c8aaa
       internalID: 7786588115404116445
       vertices: []
       indices: 
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 26bc3b10c00e0f748a93249fe3645289
     internalID: 0
     vertices: []
     indices: 
@@ -321,7 +321,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":90.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Golem_1_idle_0: 3641206842415056288
       Golem_1_idle_1: -5346422617274557279

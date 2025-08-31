@@ -23,12 +23,26 @@ public class Grate : MonoBehaviour
     {
         if (collision.CompareTag("Player") && !_inventory.isSolid)
         {
-            _inventory.ChangeState();
-            _movement.isFalling = true;
-            _movement.enabled = false;
-            _collider.isTrigger = true;
-            rb.gravityScale = gravity;
-            rb.linearVelocity = new Vector2(0, 0);
+            Fall();
         }
+    }
+
+    void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player") && !_inventory.isSolid && !isFalling)
+        {
+            Fall();
+        }
+    }
+
+    void Fall()
+    {
+        isFalling = true;
+        _inventory.ChangeState();
+        _movement.isFalling = true;
+        _movement.enabled = false;
+        _collider.isTrigger = true;
+        rb.gravityScale = gravity;
+        rb.linearVelocity = new Vector2(0, 0);
     }
 }

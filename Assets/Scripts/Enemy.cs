@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     private float currHealth;
     public Image slider;
     public Image sliderBG;
+    private NavMeshAgent agent;
     private Animator animator;
     private Collider2D _collider;
     private SpriteRenderer spriteRenderer;
@@ -23,6 +24,7 @@ public class Enemy : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         _collider = GetComponent<Collider2D>();
+        agent = GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
@@ -33,6 +35,17 @@ public class Enemy : MonoBehaviour
             _collider.enabled = false;
             sliderBG.enabled = false;
             animator.SetTrigger("Die");
+        }
+        // Flip the sprite based on movement direction
+        if (agent.velocity.x < 0)
+        {
+            // Moving left
+            spriteRenderer.flipX = false;
+        }
+        else if (agent.velocity.x > 0)
+        {
+            // Moving right
+            spriteRenderer.flipX = true;
         }
         if (!spriteRenderer.enabled)
         {
@@ -70,7 +83,8 @@ public class Enemy : MonoBehaviour
     {
         if (other.collider.CompareTag("Player"))
         {
-            LevelManager.Instance.RestartScene();
+            animator.SetTrigger("Attack");
+            //LevelManager.Instance.RestartScene();
         }
     }
 
@@ -79,5 +93,6 @@ public class Enemy : MonoBehaviour
         currHealth -= damage;
         currHealth = Mathf.Max(currHealth, 0);
         slider.fillAmount = currHealth / baseHealth;
+        animator.SetTrigger("Damage");
     }
 }

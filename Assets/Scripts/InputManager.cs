@@ -10,6 +10,7 @@ public class InputManager : MonoBehaviour
     public static bool consumePressed;
     public static bool throwPressed;
     public static bool restartPressed;
+    public static bool isHoldingMovement;
     private PlayerInput _playerInput;
     private InputAction _moveAction;
     private InputAction _attackAction;
@@ -39,5 +40,7 @@ public class InputManager : MonoBehaviour
         consumePressed = _consumeAction.WasPressedThisFrame();
         throwPressed = _throwAction.WasPressedThisFrame();
         restartPressed = _restartAction.WasPressedThisFrame();
+        
+        isHoldingMovement = movement.magnitude > 0.1f;
     }
 }

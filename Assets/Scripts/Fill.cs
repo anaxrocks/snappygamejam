@@ -29,8 +29,8 @@ public class Fill : MonoBehaviour
         _inventory = GameObject.FindAnyObjectByType<Inventory>();
         if (startFilled)
         {
-            fillBottle();
             lastPlayerPosition = _player.transform.position;
+            fillBottle();
         }
     }
 

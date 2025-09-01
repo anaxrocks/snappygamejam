@@ -6,8 +6,10 @@ public class Door : MonoBehaviour
     public bool isOpen = false;
     private Collider2D _collider;
     public bool solidDoor = false;
+    public GameObject key;
     private Inventory _inventory;
     private Animator _animator = null;
+    private bool inRange = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -23,6 +25,13 @@ public class Door : MonoBehaviour
     //         _collider.isTrigger = true;
     //     }
     // }
+    void Update()
+    {
+        if (InputManager.interactionPressed && inRange && _inventory.isSolid && _inventory.itemHeld == key)
+        {
+            unlockDoor();
+        }
+    }
 
     void OnCollisionStay2D(Collision2D collision)
     {
@@ -31,6 +40,10 @@ public class Door : MonoBehaviour
         {
             _collider.isTrigger = true;
         }
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            inRange = true;
+        }
     }
 
     void OnTriggerExit2D(Collider2D collision)
@@ -38,6 +51,7 @@ public class Door : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             _collider.isTrigger = false;
+            inRange = false;
         }
     }
 
@@ -48,5 +62,15 @@ public class Door : MonoBehaviour
         {
             _animator.SetBool("isOpen", isOpen);
         }
+    }
+
+    public void unlockDoor()
+    {
+
+        _inventory.ChangeState();
+        Destroy(_inventory.itemHeld);
+        //insert some unlock sound
+        //SoundManager.Instance.PlaySound2D()
+        ActivateDoor();
     }
 }

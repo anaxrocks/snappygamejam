@@ -18,10 +18,6 @@ public class Trap : MonoBehaviour
         {
             animator.SetBool("inRange", true);
         }
-        if (collision.CompareTag("Player") && _inventory.isSolid)
-        {
-            LevelManager.Instance.RestartScene();
-        }
     }
 
     void OnTriggerExit2D(Collider2D collision)

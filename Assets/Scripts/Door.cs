@@ -40,6 +40,9 @@ public class Door : MonoBehaviour
         {
             _collider.isTrigger = true;
         }
+    }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
         if (collision.gameObject.CompareTag("Player"))
         {
             inRange = true;

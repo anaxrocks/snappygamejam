@@ -247,5 +247,4 @@ public class Fill : MonoBehaviour
         _player.SetActive(false);
         currentActiveBottle = this; // Mark this bottle as active
     }
-
 }

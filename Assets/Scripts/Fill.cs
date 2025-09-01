@@ -12,7 +12,7 @@ public class Fill : MonoBehaviour
     public bool startFilled = false;
 
     // Static reference to track which bottle is currently active
-    public static Fill currentActiveBottle = null;
+    private static Fill currentActiveBottle = null;
 
     void Start()
     {

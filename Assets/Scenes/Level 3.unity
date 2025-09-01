@@ -663,6 +663,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   liquid: {fileID: 1316990304}
   startFilled: 0
+  teleportDistance: 1
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  debugMode: 1
 --- !u!114 &130252856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4503,6 +4508,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   liquid: {fileID: 1085714624}
   startFilled: 0
+  teleportDistance: 1
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  debugMode: 1
 --- !u!114 &860103669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5583,6 +5593,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   liquid: {fileID: 1384375479}
   startFilled: 0
+  teleportDistance: 1
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  debugMode: 1
 --- !u!114 &1086985457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6595,6 +6610,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   liquid: {fileID: 166453033}
   startFilled: 0
+  teleportDistance: 1
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  debugMode: 1
 --- !u!114 &1229982351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16097,6 +16117,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   liquid: {fileID: 390383485}
   startFilled: 0
+  teleportDistance: 1
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  debugMode: 1
 --- !u!114 &1340804061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16273,6 +16298,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   liquid: {fileID: 1104022375}
   startFilled: 0
+  teleportDistance: 1
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  debugMode: 1
 --- !u!114 &1362299085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46229,6 +46259,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   liquid: {fileID: 1232170232}
   startFilled: 0
+  teleportDistance: 1
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  debugMode: 1
 --- !u!114 &1582500159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47115,6 +47150,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   liquid: {fileID: 879147240}
   startFilled: 0
+  teleportDistance: 1
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  debugMode: 1
 --- !u!114 &1924810088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47397,6 +47437,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   liquid: {fileID: 1464954582}
   startFilled: 0
+  teleportDistance: 1
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  debugMode: 1
 --- !u!114 &2002820148
 MonoBehaviour:
   m_ObjectHideFlags: 0

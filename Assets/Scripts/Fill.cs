@@ -30,6 +30,7 @@ public class Fill : MonoBehaviour
         if (startFilled)
         {
             fillBottle();
+            lastPlayerPosition = _player.transform.position;
         }
     }
 

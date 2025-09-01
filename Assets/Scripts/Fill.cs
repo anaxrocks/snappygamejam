@@ -12,7 +12,7 @@ public class Fill : MonoBehaviour
     public bool startFilled = false;
 
     // Static reference to track which bottle is currently active
-    private static Fill currentActiveBottle = null;
+    public static Fill currentActiveBottle = null;
 
     void Start()
     {
@@ -97,5 +97,4 @@ public class Fill : MonoBehaviour
         _player.SetActive(false);
         currentActiveBottle = this; // Mark this bottle as active
     }
-
 }

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,14 +9,19 @@ public class Fill : MonoBehaviour
     public Image liquid;
     private bool inRange = false;
     private bool isFilled = false;
-    
+    public bool startFilled = false;
+
     // Static reference to track which bottle is currently active
-    private static Fill currentActiveBottle = null;
-    
+    public static Fill currentActiveBottle = null;
+
     void Start()
     {
         _player = GameObject.FindGameObjectWithTag("Player");
         _inventory = GameObject.FindAnyObjectByType<Inventory>();
+        if (startFilled)
+        {
+            fillBottle();
+        }
     }
 
     void Update()
@@ -23,15 +29,12 @@ public class Fill : MonoBehaviour
         if (InputManager.interactionPressed)
         {
             Debug.Log("pressed");
-            
+
             // Only process input if this bottle is in range and no other bottle is active
             if (inRange && currentActiveBottle == null && !isFilled && !_inventory.isSolid)
             {
                 // Fill this bottle
-                liquid.fillAmount = 0.65f;
-                isFilled = true;
-                _player.SetActive(false);
-                currentActiveBottle = this; // Mark this bottle as active
+                fillBottle();
                 SoundManager.Instance.PlaySound2D("Fill");
             }
             // Only allow exit if this specific bottle is the active one
@@ -46,7 +49,7 @@ public class Fill : MonoBehaviour
             }
         }
     }
-    
+
     void OnCollisionEnter2D(Collision2D other)
     {
         if (other.collider.CompareTag("Player"))
@@ -62,7 +65,7 @@ public class Fill : MonoBehaviour
         {
             inRange = false;
             Debug.Log($"Player left range of {gameObject.name}");
-            
+
             // If player leaves range while this bottle is active, reset everything
             if (currentActiveBottle == this)
             {
@@ -73,7 +76,7 @@ public class Fill : MonoBehaviour
             }
         }
     }
-    
+
     void OnDisable()
     {
         if (currentActiveBottle == this)
@@ -85,4 +88,14 @@ public class Fill : MonoBehaviour
             }
         }
     }
+
+    void fillBottle()
+    {
+        // Fill this bottle
+        liquid.fillAmount = 0.65f;
+        isFilled = true;
+        _player.SetActive(false);
+        currentActiveBottle = this; // Mark this bottle as active
+    }
+
 }

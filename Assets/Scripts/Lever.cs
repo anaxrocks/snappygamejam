@@ -5,6 +5,8 @@ using UnityEngine;
 public class Lever : MonoBehaviour
 {
     public Door[] doors;
+    public GameObject gameObject = null;
+    private bool gameObjectIsActivated = false;
     private Animator _animator;
     private bool inRange = false;
     private bool isActivated = false;
@@ -21,8 +23,13 @@ public class Lever : MonoBehaviour
         {
             isActivated = !isActivated;
             _animator.SetBool("isActivated", isActivated);
-            foreach (Door door in doors) {
+            foreach (Door door in doors)
+            {
                 door.ActivateDoor();
+            }
+            if (gameObject)
+            {
+                activateObject();
             }
         }
     }
@@ -40,6 +47,21 @@ public class Lever : MonoBehaviour
         if (collision.collider.CompareTag("Player"))
         {
             inRange = false;
+        }
+    }
+
+    void activateObject()
+    {
+        if (!gameObject) return;
+        if (gameObjectIsActivated)
+        {
+            gameObjectIsActivated = false;
+            gameObject.SetActive(false);
+        }
+        else
+        {
+            gameObjectIsActivated = true;
+            gameObject.SetActive(true);
         }
     }
 }

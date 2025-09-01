@@ -17,11 +17,15 @@ public class Grate : MonoBehaviour
         rb = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
         _movement = GameObject.FindAnyObjectByType<PlayerMovement>();
         _inventory = GameObject.FindAnyObjectByType<Inventory>();
+        if (isFalling)
+        {
+            Fall();
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && !_inventory.isSolid)
+        if (collision.CompareTag("Player") && !_inventory.isSolid && _movement.enabled)
         {
             Fall();
         }

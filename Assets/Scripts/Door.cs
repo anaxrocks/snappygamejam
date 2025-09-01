@@ -5,8 +5,9 @@ public class Door : MonoBehaviour
 {
     public bool isOpen = false;
     private Collider2D _collider;
+    public bool solidDoor = false;
     private Inventory _inventory;
-    private Animator _animator;
+    private Animator _animator = null;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -25,7 +26,7 @@ public class Door : MonoBehaviour
 
     void OnCollisionStay2D(Collision2D collision)
     {
-        if ((collision.gameObject.CompareTag("Player") && !_inventory.isSolid)
+        if ((collision.gameObject.CompareTag("Player") && !_inventory.isSolid && !solidDoor)
             || isOpen)
         {
             _collider.isTrigger = true;
@@ -43,6 +44,9 @@ public class Door : MonoBehaviour
     public void ActivateDoor()
     {
         isOpen = !isOpen;
-        _animator.SetBool("isOpen", isOpen);
+        if (_animator)
+        {
+            _animator.SetBool("isOpen", isOpen);
+        }
     }
 }

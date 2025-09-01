@@ -31,7 +31,15 @@ public class sewerdrain : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             _inventory.ThrowItem();
-            StartCoroutine(MovePlayer(collision.GetComponent<Rigidbody2D>()));
+            StartCoroutine(MovePlayer(rb));
+        }
+    }
+        void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            _inventory.ThrowItem();
+            StartCoroutine(MovePlayer(rb));
         }
     }
 
@@ -47,11 +55,10 @@ public class sewerdrain : MonoBehaviour
         // calc direction to move in
         Vector2 dir = (destination.position - playerRb.transform.position).normalized;
 
-        // move
+        // move 
         while (Vector2.Distance(playerRb.position, destination.position) > 0.1f)
         {
-            rb.linearVelocity = dir * speed;
-            yield return null;
+            rb.linearVelocity = dir * speed; yield return null;
         }
 
         // stop

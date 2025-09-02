@@ -30,7 +30,10 @@ public class sewerdrain : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            _inventory.ThrowItem();
+            if (_inventory.isSolid)
+            {
+                _inventory.ThrowItem();
+            }
             StartCoroutine(MovePlayer(rb));
         }
     }
@@ -38,7 +41,10 @@ public class sewerdrain : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            _inventory.ThrowItem();
+            if (_inventory.isSolid)
+            {
+                _inventory.ThrowItem();
+            }
             StartCoroutine(MovePlayer(rb));
         }
     }

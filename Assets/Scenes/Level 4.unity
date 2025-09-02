@@ -1330,6 +1330,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   isOpen: 0
+  solidDoor: 0
+  key: {fileID: 0}
 --- !u!95 &559474974
 Animator:
   serializedVersion: 7
@@ -1468,7 +1470,8 @@ Transform:
   m_LocalPosition: {x: 20.002, y: -7.004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 632592456}
   m_Father: {fileID: 506282725}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &619394800
@@ -1635,6 +1638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   doors:
   - {fileID: 559474973}
+  gameObject: {fileID: 0}
 --- !u!95 &632592454
 Animator:
   serializedVersion: 7
@@ -1723,12 +1727,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 632592451}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.08, y: -13.59, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.077999115, y: -6.586, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 559474977}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &646353270
 GameObject:
@@ -2534,6 +2538,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   isOpen: 0
+  solidDoor: 0
+  key: {fileID: 0}
 --- !u!212 &1446305104
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2693,6 +2699,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   isOpen: 0
+  solidDoor: 0
+  key: {fileID: 0}
 --- !u!212 &1450061332
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31522,6 +31530,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   isOpen: 0
+  solidDoor: 0
+  key: {fileID: 0}
 --- !u!212 &1904123425
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32166,4 +32176,3 @@ SceneRoots:
   - {fileID: 10519259}
   - {fileID: 64184201}
   - {fileID: 506282725}
-  - {fileID: 632592456}

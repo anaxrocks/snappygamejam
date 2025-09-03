@@ -10,6 +10,7 @@ public class Fill : MonoBehaviour
     private bool inRange = false;
     private bool isFilled = false;
     public bool startFilled = false;
+    public Sprite unfilledSprite = null;
 
     // Static reference to track which bottle is currently active
     private static Fill currentActiveBottle = null;
@@ -22,23 +23,21 @@ public class Fill : MonoBehaviour
     
     // Store player's last position before hiding
     private Vector3 lastPlayerPosition;
-    
+
     void Start()
     {
         particles.SetActive(false);
         _player = GameObject.FindGameObjectWithTag("Player");
         _inventory = GameObject.FindAnyObjectByType<Inventory>();
+        if (startFilled)
+        {
+            lastPlayerPosition = _player.transform.position;
+            fillBottle();
+        }
     }
 
     void Update()
     {
-        if (startFilled)
-        {
-            startFilled = false;
-            lastPlayerPosition = _player.transform.position;
-            fillBottle();
-        }
-
         if (InputManager.interactionPressed)
         {
             Debug.Log("pressed");
@@ -81,6 +80,12 @@ public class Fill : MonoBehaviour
                 isFilled = false;
                 _player.SetActive(true);
                 currentActiveBottle = null; // Clear the active bottle
+
+                //change the sprite to unfilled
+                if (startFilled)
+                {
+                    gameObject.GetComponent<SpriteRenderer>().sprite = unfilledSprite;
+                }
                 SoundManager.Instance.PlaySound2D("Exit");
             }
         }

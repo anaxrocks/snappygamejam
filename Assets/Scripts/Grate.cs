@@ -33,7 +33,7 @@ public class Grate : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && !_inventory.isSolid && !isFalling)
+        if (collision.CompareTag("Player") && !_inventory.isSolid && !isFalling && _movement.enabled)
         {
             Fall();
         }

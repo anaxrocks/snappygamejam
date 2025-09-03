@@ -10,7 +10,7 @@ public class TrapReset : MonoBehaviour
         _inventory = FindFirstObjectByType<Inventory>();
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Player") && _inventory.isSolid)
         {

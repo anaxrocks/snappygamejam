@@ -13,17 +13,25 @@ public class PlayerMovement : MonoBehaviour
     private const string _LastHorizontal = "LastHorizontal";
     private const string _LastVertical = "LastVertical";
     public bool isFalling = false;
+    private Magic magicScript;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+        magicScript = GameObject.FindAnyObjectByType<Magic>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        _movement.Set(InputManager.movement.x, InputManager.movement.y);
+        if (magicScript != null && magicScript._hit == true)
+        {
+            Debug.Log("movement BAD");
+            _movement.Set(-InputManager.movement.x, -InputManager.movement.y);
+        } else {
+            _movement.Set(InputManager.movement.x, InputManager.movement.y);
+        }
         _rb.linearVelocity = _movement * _moveSpeed;
         _animator.SetFloat(_horizontal, _movement.x);
         _animator.SetFloat(_vertical, _movement.y);

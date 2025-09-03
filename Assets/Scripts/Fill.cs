@@ -6,7 +6,7 @@ public class Fill : MonoBehaviour
 {
     private Inventory _inventory;
     private GameObject _player;
-    public Image liquid;
+    public GameObject particles;
     private bool inRange = false;
     private bool isFilled = false;
     public bool startFilled = false;
@@ -25,17 +25,20 @@ public class Fill : MonoBehaviour
     
     void Start()
     {
+        particles.SetActive(false);
         _player = GameObject.FindGameObjectWithTag("Player");
         _inventory = GameObject.FindAnyObjectByType<Inventory>();
-        if (startFilled)
-        {
-            lastPlayerPosition = _player.transform.position;
-            fillBottle();
-        }
     }
 
     void Update()
     {
+        if (startFilled)
+        {
+            startFilled = false;
+            lastPlayerPosition = _player.transform.position;
+            fillBottle();
+        }
+
         if (InputManager.interactionPressed)
         {
             Debug.Log("pressed");
@@ -45,7 +48,7 @@ public class Fill : MonoBehaviour
             {
                 // Store player's position before hiding
                 lastPlayerPosition = _player.transform.position;
-                
+
                 // Fill this bottle
                 fillBottle();
                 SoundManager.Instance.PlaySound2D("Fill");
@@ -72,9 +75,9 @@ public class Fill : MonoBehaviour
                     // Not holding movement, spawn at last position
                     _player.transform.position = lastPlayerPosition;
                 }
-                
+
                 // Empty this bottle
-                liquid.fillAmount = 0f;
+                particles.SetActive(false);
                 isFilled = false;
                 _player.SetActive(true);
                 currentActiveBottle = null; // Clear the active bottle
@@ -220,7 +223,7 @@ public class Fill : MonoBehaviour
             // If player leaves range while this bottle is active, reset everything
             if (currentActiveBottle == this)
             {
-                liquid.fillAmount = 0f;
+                particles.SetActive(false);
                 isFilled = false;
                 _player.SetActive(true);
                 currentActiveBottle = null;
@@ -243,7 +246,7 @@ public class Fill : MonoBehaviour
     void fillBottle()
     {
         // Fill this bottle
-        liquid.fillAmount = 0.65f;
+        particles.SetActive(true);
         isFilled = true;
         _player.SetActive(false);
         currentActiveBottle = this; // Mark this bottle as active

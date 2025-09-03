@@ -51,10 +51,10 @@ public class Enemy : MonoBehaviour
             // Moving right
             spriteRenderer.flipX = true;
         }
-        if (!spriteRenderer.enabled)
-        {
-            Destroy(gameObject);
-        }
+        // if (!spriteRenderer.enabled)
+        // {
+        //     Destroy(gameObject);
+        // }
         if (trapDamageTimer > 0f)
         {
             trapDamageTimer -= Time.deltaTime;
@@ -107,6 +107,6 @@ public class Enemy : MonoBehaviour
             key.transform.position = transform.position;
             key.SetActive(true);
         }
-        Destroy(gameObject, 0.1f); 
+        Destroy(gameObject, 1f); 
     }
 }

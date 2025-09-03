@@ -40,7 +40,6 @@ public class Enemy : MonoBehaviour
             agent.enabled = false;
             animator.SetTrigger("Die");
         }
-
         if (trapDamageTimer > 0f)
         {
             trapDamageTimer -= Time.deltaTime;

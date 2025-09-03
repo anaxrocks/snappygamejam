@@ -181,6 +181,9 @@ MonoBehaviour:
   - groupID: Shoot
     clips:
     - {fileID: 8300000, guid: 9e394ff34ed42384497034cfbfabdf3d, type: 3}
+  - groupID: Lever
+    clips:
+    - {fileID: 8300000, guid: 954378aecd0304569bd06c3e0fd56ce3, type: 3}
 --- !u!4 &242552469
 Transform:
   m_ObjectHideFlags: 0

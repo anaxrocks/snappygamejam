@@ -5,6 +5,7 @@ public class Inventory : MonoBehaviour
 {
     // if player is able to pick up an item or not
     public bool isSolid = false;
+    public bool consumeEnabled = false;
     public GameObject itemHeld;
     private SpriteRenderer spriteRenderer;
     private PlayerCombat playerCombat;
@@ -52,7 +53,7 @@ public class Inventory : MonoBehaviour
 
     public void ConsumeItem()
     {
-        if (isSolid)
+        if (isSolid && consumeEnabled)
         {
             ChangeState();
             int amount = itemHeld.GetComponent<Interactable>().consumableAmount;

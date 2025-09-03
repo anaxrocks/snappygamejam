@@ -968,6 +968,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 1129125771}
   startFilled: 0
+  unfilledSprite: {fileID: 0}
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -2803,6 +2804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 632291561}
   startFilled: 0
+  unfilledSprite: {fileID: 0}
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -44328,6 +44330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 331045067}
   startFilled: 0
+  unfilledSprite: {fileID: 0}
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -44464,7 +44467,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1.3125}
+    oldSize: {x: 1.5625, y: 1.25}
     newSize: {x: 1, y: 1.3125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -44498,6 +44501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 643603693}
   startFilled: 1
+  unfilledSprite: {fileID: 5972536094127468480, guid: b09f98df9e896483ea1ed33e6813707e, type: 3}
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -44550,7 +44554,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 6641053091841974872, guid: 4b4be5169f6382c42966175a5cf37d0d, type: 3}
+  m_Sprite: {fileID: 5995131313967039915, guid: b09f98df9e896483ea1ed33e6813707e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

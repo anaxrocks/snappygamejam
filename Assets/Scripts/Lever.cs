@@ -5,11 +5,12 @@ using UnityEngine;
 public class Lever : MonoBehaviour
 {
     public Door[] doors;
-    public GameObject gameObject = null;
+    public GameObject go = null;
     private bool gameObjectIsActivated = false;
     private Animator _animator;
     private bool inRange = false;
     private bool isActivated = false;
+    public bool forDoor = true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -23,14 +24,17 @@ public class Lever : MonoBehaviour
         {
             isActivated = !isActivated;
             _animator.SetBool("isActivated", isActivated);
-            foreach (Door door in doors)
+            if (forDoor)
             {
-                door.ActivateDoor();
+                foreach (Door door in doors)
+                {
+                    door.ActivateDoor();
+                }
             }
             if (gameObject)
-            {
-                activateObject();
-            }
+                {
+                    activateObject();
+                }
         }
     }
 
@@ -52,16 +56,16 @@ public class Lever : MonoBehaviour
 
     void activateObject()
     {
-        if (!gameObject) return;
+        if (!go) return;
         if (gameObjectIsActivated)
         {
             gameObjectIsActivated = false;
-            gameObject.SetActive(false);
+            go.SetActive(false);
         }
         else
         {
             gameObjectIsActivated = true;
-            gameObject.SetActive(true);
+            go.SetActive(true);
         }
     }
 }

@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.AI;
+using UnityEngine.InputSystem.Editor;
 
 public class Enemy : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class Enemy : MonoBehaviour
     private Rigidbody2D rb;
     private float trapDamageInterval = 1f; // seconds between ticks
     private float trapDamageTimer = 0f;
+    public GameObject key = null;
+    public bool dropKey = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -34,6 +37,7 @@ public class Enemy : MonoBehaviour
         {
             _collider.enabled = false;
             sliderBG.enabled = false;
+            agent.enabled = false;
             animator.SetTrigger("Die");
         }
         // Flip the sprite based on movement direction
@@ -94,5 +98,15 @@ public class Enemy : MonoBehaviour
         currHealth = Mathf.Max(currHealth, 0);
         slider.fillAmount = currHealth / baseHealth;
         animator.SetTrigger("Damage");
+    }
+
+    void Die()
+    {
+        if (dropKey)
+        {
+            key.transform.position = transform.position;
+            key.SetActive(true);
+        }
+        Destroy(gameObject, 0.1f); 
     }
 }

@@ -28,17 +28,23 @@ public class sewerdrain : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && !_movement.isFalling)
         {
-            _inventory.ThrowItem();
+            if (_inventory.isSolid)
+            {
+                _inventory.ThrowItem();
+            }
             StartCoroutine(MovePlayer(rb));
         }
     }
         void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && !_movement.isFalling)
         {
-            _inventory.ThrowItem();
+            if (_inventory.isSolid)
+            {
+                _inventory.ThrowItem();
+            }
             StartCoroutine(MovePlayer(rb));
         }
     }

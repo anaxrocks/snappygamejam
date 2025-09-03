@@ -50,9 +50,19 @@ public class EnemyType : MonoBehaviour
 
     void Update()
     {
-        if (pathfind && target.activeInHierarchy)
+        if (pathfind)
         {
-            agent.SetDestination(target.transform.position);
+            if (!target.activeInHierarchy)
+            {
+                if (points.Length > 0)
+                {
+                    agent.SetDestination(points[0].position);
+                }
+            }
+            else
+            {
+                agent.SetDestination(target.transform.position);
+            }
             return;
         }
 

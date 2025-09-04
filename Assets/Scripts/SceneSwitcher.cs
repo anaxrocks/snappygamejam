@@ -9,7 +9,7 @@ public class SceneSwitcher : MonoBehaviour
     {
         if (collision.CompareTag("Player")) // only switch if it's the player
         {
-            SceneManager.LoadScene(sceneToLoad);
+            LevelManager.Instance.LoadScene(sceneToLoad);
         }
     }
     

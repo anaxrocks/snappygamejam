@@ -6,6 +6,9 @@ using System.Collections;
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager Instance;
+    public GameObject _camera;
+    public GameObject _cauldron;
+    public static bool isIntro = true;
     private bool playerIsDying = false; // Prevent multiple death calls
 
     private void Awake()
@@ -34,6 +37,26 @@ public class LevelManager : MonoBehaviour
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
     }
 
+    public void LoadScene(string name)
+    {
+        SceneManager.LoadSceneAsync(name);
+    }
+
+    public void LoadCutScene()
+    {
+        Scene scene = SceneManager.GetActiveScene();
+        if (scene.name == "Level 5")
+        {
+            _cauldron = GameObject.Find("Cauldron");
+            _camera = GameObject.FindGameObjectWithTag("MainCamera");
+            SceneManager.LoadSceneAsync("Cutscene", LoadSceneMode.Additive);
+        }
+        else
+        {
+            SceneManager.LoadSceneAsync("Cutscene");
+        }
+    }
+
     public void EndCutScene()
     {
         SceneManager.LoadSceneAsync("Level 1");
@@ -48,7 +71,11 @@ public class LevelManager : MonoBehaviour
         Animator _animator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
         _animator.SetTrigger("Die");
         PlayerMovement playerMovement = GameObject.FindAnyObjectByType<PlayerMovement>();
+        Rigidbody2D rb = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
+        rb.linearVelocity = Vector2.zero;
         playerMovement.enabled = false;
+        SpriteRenderer spriteRenderer = GameObject.FindGameObjectWithTag("Player").GetComponent<SpriteRenderer>();
+        spriteRenderer.color = new Color(1.0f, 0.4f, 0.4f, 1f);
         StartCoroutine(CheckPlayer());
     }
 

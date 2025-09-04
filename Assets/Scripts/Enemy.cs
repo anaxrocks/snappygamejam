@@ -80,6 +80,14 @@ public class Enemy : MonoBehaviour
         if (other.collider.CompareTag("Player") && currHealth > 0)
         {
             animator.SetTrigger("Attack");
+            if (isWizard)
+            {
+                SoundManager.Instance.PlaySound2D("FireSound");
+            }
+            else
+            {
+                SoundManager.Instance.PlaySound2D("GolemAttack");
+            }
             LevelManager.Instance.KillPlayer();
         }
     }

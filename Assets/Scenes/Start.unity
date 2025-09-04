@@ -204,8 +204,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 646353271}
         m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
+        m_MethodName: LoadCutScene
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -388,8 +388,8 @@ MonoBehaviour:
   tracks:
   - trackName: Level 1
     clip: {fileID: 8300000, guid: 452a8692dc1b84ba2a8b5b50620d995b, type: 3}
-  - trackName: Level 2
-    clip: {fileID: 0}
+  - trackName: Theme
+    clip: {fileID: 8300000, guid: 3970599797b5c46749a9aec5444a71c6, type: 3}
 --- !u!114 &242552468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -445,6 +445,12 @@ MonoBehaviour:
   - groupID: FireSound
     clips:
     - {fileID: 8300000, guid: baa377c5cfe7c44e7af4d8d0eb689a81, type: 3}
+  - groupID: Die
+    clips:
+    - {fileID: 8300000, guid: 0efa254f49728425f8e87bf0e2d14aa1, type: 3}
+  - groupID: CageDoor
+    clips:
+    - {fileID: 8300000, guid: 31950afa6851241108fa2fced383a54e, type: 3}
 --- !u!4 &242552469
 Transform:
   m_ObjectHideFlags: 0
@@ -552,7 +558,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0

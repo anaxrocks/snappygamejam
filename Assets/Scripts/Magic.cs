@@ -36,14 +36,15 @@ public class Magic : MonoBehaviour
         _animator.SetTrigger("Magic");
         if (inRange)
         {
+            SoundManager.Instance.PlaySound2D("WizardMagic");
             _hit = true;
-            
+
             // Stop any existing despawn coroutine to prevent overlaps
             if (despawnCoroutine != null)
             {
                 StopCoroutine(despawnCoroutine);
             }
-            
+
             // Start the despawn coroutine
             despawnCoroutine = StartCoroutine(DespawnMagic());
         }

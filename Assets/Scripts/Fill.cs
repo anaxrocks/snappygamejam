@@ -29,16 +29,18 @@ public class Fill : MonoBehaviour
         particles.SetActive(false);
         _player = GameObject.FindGameObjectWithTag("Player");
         _inventory = GameObject.FindAnyObjectByType<Inventory>();
-    }
-
-    void Update()
-    {
+        
         if (startFilled)
         {
             lastPlayerPosition = _player.transform.position;
             fillBottle();
             startFilled = false;
         }
+    }
+
+    void FixedUpdate()
+    {
+        // Only check input when relevant to reduce overhead
         if (InputManager.interactionPressed)
         {
             Debug.Log("pressed");

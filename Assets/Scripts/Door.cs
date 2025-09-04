@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -10,27 +11,13 @@ public class Door : MonoBehaviour
     private Inventory _inventory;
     private Animator _animator = null;
     private bool inRange = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private bool hasUnlocked = false; // Prevent multiple unlocks
+
     void Start()
     {
         _collider = GetComponent<Collider2D>();
         _inventory = GameObject.FindAnyObjectByType<Inventory>();
         _animator = GetComponent<Animator>();
-    }
-
-    // void OnCollisionEnter2D(Collision2D collision)
-    // {
-    //     if (collision.gameObject.CompareTag("Player") && !_inventory.isSolid)
-    //     {
-    //         _collider.isTrigger = true;
-    //     }
-    // }
-    void Update()
-    {
-        if (InputManager.interactionPressed && inRange && _inventory.isSolid && _inventory.itemHeld == key)
-        {
-            unlockDoor();
-        }
     }
 
     void OnCollisionStay2D(Collision2D collision)
@@ -41,11 +28,18 @@ public class Door : MonoBehaviour
             _collider.isTrigger = true;
         }
     }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
             inRange = true;
+            
+            // Only start checking for key interaction if door needs a key and hasn't been unlocked
+            if (key != null && !hasUnlocked && !isOpen)
+            {
+                StartCoroutine(CheckForKeyInteraction());
+            }
         }
     }
 
@@ -55,6 +49,26 @@ public class Door : MonoBehaviour
         {
             _collider.isTrigger = false;
             inRange = false;
+            
+            // Stop checking for key interaction when player leaves
+            StopAllCoroutines();
+        }
+    }
+
+    // Coroutine that only runs when player is in range and door needs key
+    private IEnumerator CheckForKeyInteraction()
+    {
+        while (inRange && !hasUnlocked && !isOpen)
+        {
+            // Check if player has the correct key and is in solid state
+            if (InputManager.interactionPressed && 
+                _inventory.isSolid && 
+                _inventory.itemHeld == key)
+            {
+                UnlockDoor();
+                yield break; // Exit after unlocking
+            }
+            yield return null; // Wait one frame
         }
     }
 
@@ -65,15 +79,26 @@ public class Door : MonoBehaviour
         {
             _animator.SetBool("isOpen", isOpen);
         }
+        
+        // If door opens, stop checking for key interactions
+        if (isOpen)
+        {
+            StopAllCoroutines();
+        }
     }
 
-    public void unlockDoor()
+    public void UnlockDoor()
     {
+        if (hasUnlocked) return; // Prevent multiple unlocks
+        
+        hasUnlocked = true;
         _inventory.ChangeState();
         Destroy(_inventory.itemHeld);
-        //insert some unlock sound
-        //SoundManager.Instance.PlaySound2D()
+        
         ActivateDoor();
         SoundManager.Instance.PlaySound2D("WoodenDoor", 0.5f);
+        
+        // Stop all coroutines since door is now unlocked
+        StopAllCoroutines();
     }
 }

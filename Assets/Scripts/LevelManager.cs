@@ -23,6 +23,10 @@ public class LevelManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }
     }
+    void Start()
+    {
+        MusicManager.Instance.PlayMusic("Theme", 0.3f);
+    }
 
     void Update()
     {
@@ -76,6 +80,7 @@ public class LevelManager : MonoBehaviour
         playerMovement.enabled = false;
         SpriteRenderer spriteRenderer = GameObject.FindGameObjectWithTag("Player").GetComponent<SpriteRenderer>();
         spriteRenderer.color = new Color(1.0f, 0.4f, 0.4f, 1f);
+        SoundManager.Instance.PlaySound2D("Die");
         StartCoroutine(CheckPlayer());
     }
 

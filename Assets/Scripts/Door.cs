@@ -96,9 +96,16 @@ public class Door : MonoBehaviour
         Destroy(_inventory.itemHeld);
         
         ActivateDoor();
-        SoundManager.Instance.PlaySound2D("WoodenDoor", 0.5f);
+        if (solidDoor)
+        {
+            SoundManager.Instance.PlaySound2D("WoodenDoor");
+        }
+        else
+        {
+            SoundManager.Instance.PlaySound2D("CageDoor");
+        }
         
         // Stop all coroutines since door is now unlocked
-        StopAllCoroutines();
+            StopAllCoroutines();
     }
 }

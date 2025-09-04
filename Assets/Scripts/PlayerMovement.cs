@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private const string _LastVertical = "LastVertical";
     public bool isFalling = false;
     public RuntimeAnimatorController wizardController;
-    private bool wizard = false;
+    public bool wizard = false;
     private Magic magicScript;
     private SpriteRenderer _spriteRenderer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created

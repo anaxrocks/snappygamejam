@@ -34685,7 +34685,7 @@ GameObject:
   - component: {fileID: 1105264703}
   - component: {fileID: 1105264702}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Magic field
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

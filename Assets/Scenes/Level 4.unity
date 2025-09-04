@@ -10198,15 +10198,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5731646494494358846, guid: 7eabff0852b9d46f4a51f858cb2edab6, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5875770037257513904, guid: 7eabff0852b9d46f4a51f858cb2edab6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.33
+      value: -1.05
       objectReference: {fileID: 0}
     - target: {fileID: 5875770037257513904, guid: 7eabff0852b9d46f4a51f858cb2edab6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17.1
+      value: 19.46
       objectReference: {fileID: 0}
     - target: {fileID: 5875770037257513904, guid: 7eabff0852b9d46f4a51f858cb2edab6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -40481,6 +40481,7 @@ MonoBehaviour:
   isFalling: 0
   wizardController: {fileID: 0}
   wizard: 0
+  _screenBorder: 50
 --- !u!114 &2067056252
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -44,15 +44,22 @@ public class PlayerMovement : MonoBehaviour
 
         _rb.linearVelocity = _movement * _moveSpeed;
         PreventPlayerGoingOffScreen();
-        _animator.SetFloat(_horizontal, _movement.x);
-        _animator.SetFloat(_vertical, _movement.y);
 
-        if (_movement != Vector2.zero)
+        if (!wizard)
         {
-            _animator.SetFloat(_LastHorizontal, _movement.x);
-            _animator.SetFloat(_LastVertical, _movement.y);
+            _animator.SetFloat(_horizontal, _movement.x);
+            _animator.SetFloat(_vertical, _movement.y);
+
+            if (_movement != Vector2.zero)
+            {
+                _animator.SetFloat(_LastHorizontal, _movement.x);
+                _animator.SetFloat(_LastVertical, _movement.y);
+            }
         }
-        HandleWizardAnimation();
+        else
+        {
+            HandleWizardAnimation();
+        }
     }
 
      private void PreventPlayerGoingOffScreen()
@@ -76,10 +83,11 @@ public class PlayerMovement : MonoBehaviour
     {
         wizard = true;
         gameObject.GetComponent<Animator>().runtimeAnimatorController = wizardController;
-        gameObject.transform.localScale = Vector2.one;
-        gameObject.GetComponent<Inventory>().enabled = false;
         GameObject _camera = GameObject.FindGameObjectWithTag("MainCamera");
         _camera.transform.SetParent(gameObject.transform);
+        gameObject.transform.localScale = Vector3.one;
+        Inventory _inventory = GameObject.FindAnyObjectByType<Inventory>();
+        _inventory.enabled = false;
     }
     
     private void HandleWizardAnimation()

@@ -9,6 +9,7 @@ public class Wizard : MonoBehaviour
     private EnemyType _enemyType;
     public bool isDead = false;
     private bool hasTransferred = false;
+    private Magic _magic;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     // Update is called once per frame
 
@@ -16,6 +17,8 @@ public class Wizard : MonoBehaviour
     {
         _movement = GameObject.FindAnyObjectByType<PlayerMovement>();
         _enemy = GetComponent<Enemy>();
+        _enemyType = GetComponent<EnemyType>();
+        _magic = GameObject.FindAnyObjectByType<Magic>();
     }
 
 
@@ -30,10 +33,11 @@ public class Wizard : MonoBehaviour
         }
     }
 
-    void Dead()
+    public void Dead()
     {
         _enemy.enabled = false;
         _enemyType.enabled = false;
+        _magic.enabled = false;
         isDead = true;
     }
 

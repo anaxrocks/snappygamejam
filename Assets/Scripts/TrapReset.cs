@@ -14,7 +14,7 @@ public class TrapReset : MonoBehaviour
     {
         if (collision.CompareTag("Player") && _inventory.isSolid)
         {
-            LevelManager.Instance.RestartScene();
+            LevelManager.Instance.KillPlayer();
         }
     }
 }

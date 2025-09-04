@@ -35465,7 +35465,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -36183,6 +36183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dc3b9f66fe9ea84d9c718020647e842, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelManager
+  _camera: {fileID: 0}
+  _cauldron: {fileID: 0}
 --- !u!4 &646353272
 Transform:
   m_ObjectHideFlags: 0
@@ -37968,6 +37970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   isSolid: 0
+  consumeEnabled: 0
   itemHeld: {fileID: 0}
 --- !u!1 &981714304
 GameObject:
@@ -57878,6 +57881,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   _moveSpeed: 5
   isFalling: 0
+  wizardController: {fileID: 0}
+  wizard: 0
 --- !u!114 &2067056252
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -385,7 +385,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1364730f1b13a04d81b257a9a1916bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MusicLibrary
-  tracks: []
+  tracks:
+  - trackName: Level 1
+    clip: {fileID: 8300000, guid: 452a8692dc1b84ba2a8b5b50620d995b, type: 3}
+  - trackName: Level 2
+    clip: {fileID: 0}
 --- !u!114 &242552468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -420,6 +424,21 @@ MonoBehaviour:
   - groupID: Lever
     clips:
     - {fileID: 8300000, guid: 954378aecd0304569bd06c3e0fd56ce3, type: 3}
+  - groupID: WoodenDoor
+    clips:
+    - {fileID: 8300000, guid: 403545fc611f14b199a9f650b0aecda2, type: 3}
+  - groupID: LightTorches
+    clips:
+    - {fileID: 8300000, guid: 5f5b939d6327547e38661a22ba6166f7, type: 3}
+  - groupID: Land
+    clips:
+    - {fileID: 8300000, guid: 8aa3c78139e834d7d96aa6d52274e268, type: 3}
+  - groupID: Gloop
+    clips:
+    - {fileID: 8300000, guid: 685ed94a57aec4b16876d411b4a7c028, type: 3}
+  - groupID: GolemAttack
+    clips:
+    - {fileID: 8300000, guid: 33288ba0dcf9040a69bf519ce0402a94, type: 3}
 --- !u!4 &242552469
 Transform:
   m_ObjectHideFlags: 0

@@ -13,13 +13,17 @@ public class PlayerMovement : MonoBehaviour
     private const string _LastHorizontal = "LastHorizontal";
     private const string _LastVertical = "LastVertical";
     public bool isFalling = false;
+    public RuntimeAnimatorController wizardController;
+    public bool wizard = false;
     private Magic magicScript;
+    private SpriteRenderer _spriteRenderer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         magicScript = GameObject.FindAnyObjectByType<Magic>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -29,7 +33,9 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.Log("movement BAD");
             _movement.Set(-InputManager.movement.x, -InputManager.movement.y);
-        } else {
+        }
+        else
+        {
             _movement.Set(InputManager.movement.x, InputManager.movement.y);
         }
         _rb.linearVelocity = _movement * _moveSpeed;
@@ -41,5 +47,38 @@ public class PlayerMovement : MonoBehaviour
             _animator.SetFloat(_LastHorizontal, _movement.x);
             _animator.SetFloat(_LastVertical, _movement.y);
         }
+        HandleWizardAnimation();
     }
+
+    public void TransferControlToWizard()
+    {
+        wizard = true;
+        gameObject.GetComponent<Animator>().runtimeAnimatorController = wizardController;
+        gameObject.transform.localScale = Vector2.one;
+        gameObject.GetComponent<Inventory>().enabled = false;
+        GameObject _camera = GameObject.FindGameObjectWithTag("MainCamera");
+        _camera.transform.SetParent(gameObject.transform);
+    }
+    
+    private void HandleWizardAnimation()
+    {
+        if (wizard)
+        {
+            // Set wizard-specific velocity parameters for animation
+            _animator.SetFloat("velX", _rb.linearVelocity.x);
+            _animator.SetFloat("velY", _rb.linearVelocity.y);
+            
+            // Handle wizard sprite flipping
+            if (_rb.linearVelocity.x < 0)
+            {
+                // Moving left - flip sprite for wizard
+                _spriteRenderer.flipX = wizard;
+            }
+            else if (_rb.linearVelocity.x > 0)
+            {
+                // Moving right - don't flip sprite for wizard
+                _spriteRenderer.flipX = !wizard;
+            }
+        }
+}
 }

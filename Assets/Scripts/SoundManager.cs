@@ -22,7 +22,7 @@ public class SoundManager : MonoBehaviour
         }
     }
 
-    public void PlaySound2D(string soundName)
+    public void PlaySound2D(string soundName, float delay = 0f)
     {
         sfx2DSource.PlayOneShot(sfxLibrary.GetClipFromName(soundName));
     }

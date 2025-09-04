@@ -48,5 +48,6 @@ public class Grate : MonoBehaviour
         _collider.isTrigger = true;
         rb.gravityScale = gravity;
         rb.linearVelocity = new Vector2(0, 0);
+        SoundManager.Instance.PlaySound2D("Gloop");
     }
 }

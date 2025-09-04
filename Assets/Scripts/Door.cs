@@ -69,11 +69,11 @@ public class Door : MonoBehaviour
 
     public void unlockDoor()
     {
-
         _inventory.ChangeState();
         Destroy(_inventory.itemHeld);
         //insert some unlock sound
         //SoundManager.Instance.PlaySound2D()
         ActivateDoor();
+        SoundManager.Instance.PlaySound2D("WoodenDoor", 0.5f);
     }
 }

@@ -40,21 +40,6 @@ public class Enemy : MonoBehaviour
             agent.enabled = false;
             animator.SetTrigger("Die");
         }
-        // Flip the sprite based on movement direction
-        if (agent.velocity.x < 0)
-        {
-            // Moving left
-            spriteRenderer.flipX = false;
-        }
-        else if (agent.velocity.x > 0)
-        {
-            // Moving right
-            spriteRenderer.flipX = true;
-        }
-        // if (!spriteRenderer.enabled)
-        // {
-        //     Destroy(gameObject);
-        // }
         if (trapDamageTimer > 0f)
         {
             trapDamageTimer -= Time.deltaTime;

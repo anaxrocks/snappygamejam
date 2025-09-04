@@ -5,6 +5,7 @@ public class LevelManager : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public static LevelManager Instance;
+    static bool hasKilledWizard = false;
 
     private void Awake()
     {
@@ -31,5 +32,10 @@ public class LevelManager : MonoBehaviour
     public void RestartScene()
     {
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void EndCutScene()
+    {
+        SceneManager.LoadSceneAsync("Level 1");
     }
 }

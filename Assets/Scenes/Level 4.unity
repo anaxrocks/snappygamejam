@@ -1235,7 +1235,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.85
   m_Color: {r: 0.9764706, g: 0.69411767, b: 0.23921569, a: 1}
-  m_Intensity: 5
+  m_Intensity: 4
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -1760,7 +1760,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.85
   m_Color: {r: 0.9764706, g: 0.69411767, b: 0.23921569, a: 1}
-  m_Intensity: 6
+  m_Intensity: 4
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -2945,7 +2945,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.85
   m_Color: {r: 0.9764706, g: 0.69411767, b: 0.23921569, a: 1}
-  m_Intensity: 5
+  m_Intensity: 2
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -3433,7 +3433,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.85
   m_Color: {r: 0.9764706, g: 0.69411767, b: 0.23921569, a: 1}
-  m_Intensity: 5
+  m_Intensity: 2
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -3816,7 +3816,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.85
   m_Color: {r: 0.9764706, g: 0.69411767, b: 0.23921569, a: 1}
-  m_Intensity: 5
+  m_Intensity: 4
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -9350,7 +9350,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.85
   m_Color: {r: 0.9764706, g: 0.69411767, b: 0.23921569, a: 1}
-  m_Intensity: 5
+  m_Intensity: 2
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -38541,7 +38541,7 @@ Animator:
   m_GameObject: {fileID: 1904123420}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 26f482582965d47b88b16fc91cc57912, type: 2}
+  m_Controller: {fileID: 9100000, guid: fee77fde9a7fb5642a99a97c17f46765, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

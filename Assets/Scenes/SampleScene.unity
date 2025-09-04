@@ -813,6 +813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 478926984}
   startFilled: 0
+  unfilledSprite: {fileID: 0}
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -4531,6 +4532,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   isSolid: 0
+  consumeEnabled: 1
   itemHeld: {fileID: 0}
 --- !u!1 &972302962
 GameObject:

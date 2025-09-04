@@ -439,6 +439,12 @@ MonoBehaviour:
   - groupID: GolemAttack
     clips:
     - {fileID: 8300000, guid: 33288ba0dcf9040a69bf519ce0402a94, type: 3}
+  - groupID: WizardMagic
+    clips:
+    - {fileID: 8300000, guid: 96d25bee3b64264469d0d3ba1e56b5a0, type: 3}
+  - groupID: FireSound
+    clips:
+    - {fileID: 8300000, guid: baa377c5cfe7c44e7af4d8d0eb689a81, type: 3}
 --- !u!4 &242552469
 Transform:
   m_ObjectHideFlags: 0
@@ -483,6 +489,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dc3b9f66fe9ea84d9c718020647e842, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelManager
+  _camera: {fileID: 0}
+  _cauldron: {fileID: 0}
 --- !u!4 &646353272
 Transform:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ public class Inventory : MonoBehaviour
     private PlayerCombat playerCombat;
     private GameObject _player;
     private GameObject _camera;
+    public bool giveHint = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {

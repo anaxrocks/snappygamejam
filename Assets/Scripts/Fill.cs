@@ -10,6 +10,7 @@ public class Fill : MonoBehaviour
     private bool inRange = false;
     private bool isFilled = false;
     public bool startFilled = false;
+    public bool giveHint = false;
 
     // Static reference to track which bottle is currently active
     private static Fill currentActiveBottle = null;
@@ -207,6 +208,10 @@ public class Fill : MonoBehaviour
     {
         if (other.collider.CompareTag("Player"))
         {
+            if (giveHint)
+            {
+                Hints.Instance.TriggerEHint();
+            }
             inRange = true;
             Debug.Log($"Player entered range of {gameObject.name}");
         }
@@ -244,6 +249,11 @@ public class Fill : MonoBehaviour
 
     void fillBottle()
     {
+        if (giveHint)
+        {
+            giveHint = false;
+            Hints.Instance.TriggerEHint();
+        }
         // Fill this bottle
         particles.SetActive(true);
         isFilled = true;

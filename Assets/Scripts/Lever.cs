@@ -11,6 +11,7 @@ public class Lever : MonoBehaviour
     private bool inRange = false;
     private bool isActivated = false;
     public bool forDoor = true;
+    public bool giveHint = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -46,6 +47,11 @@ public class Lever : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
+            if (giveHint)
+            {
+                giveHint = false;
+                Hints.Instance.TriggerEHint();
+            }
             inRange = true;
         }
     }

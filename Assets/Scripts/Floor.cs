@@ -1,3 +1,4 @@
+using Unity.Burst.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -7,6 +8,7 @@ public class Floor : MonoBehaviour
     private Rigidbody2D rb;
     private Inventory _inventory;
     private Collider2D _collider;
+    public bool giveHint = false;
 
     void Awake() {
         _collider = GameObject.FindGameObjectWithTag("Player").GetComponent<Collider2D>();
@@ -24,6 +26,12 @@ public class Floor : MonoBehaviour
             _movement.enabled = true;
             rb.gravityScale = 0f;
             SoundManager.Instance.PlaySound2D("Land");
+
+            if (giveHint)
+            {
+                giveHint = false;
+                Hints.Instance.TriggerEHint();
+            }
         }
     }
 }

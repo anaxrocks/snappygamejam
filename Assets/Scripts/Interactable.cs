@@ -10,6 +10,7 @@ public class Interactable : MonoBehaviour
     public int consumableAmount = 0;
     public bool giveHint = false;
     public bool consumeHint = false;
+    public bool consumable = true;
 
     void Start()
     {

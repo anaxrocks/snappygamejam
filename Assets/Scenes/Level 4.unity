@@ -1900,6 +1900,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 1
   consumeHint: 1
+  consumable: 1
 --- !u!95 &305121076
 Animator:
   serializedVersion: 7
@@ -2085,6 +2086,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 1
   consumeHint: 1
+  consumable: 1
 --- !u!95 &308996213
 Animator:
   serializedVersion: 7
@@ -2270,6 +2272,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 1
   consumeHint: 1
+  consumable: 1
 --- !u!95 &313833373
 Animator:
   serializedVersion: 7
@@ -2568,6 +2571,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 1
   consumeHint: 1
+  consumable: 1
 --- !u!95 &339090871
 Animator:
   serializedVersion: 7
@@ -2811,6 +2815,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 1
   consumeHint: 1
+  consumable: 1
 --- !u!95 &347791951
 Animator:
   serializedVersion: 7
@@ -3568,6 +3573,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 1
   consumeHint: 1
+  consumable: 1
 --- !u!95 &400383324
 Animator:
   serializedVersion: 7
@@ -5642,6 +5648,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 0
   consumeHint: 0
+  consumable: 1
 --- !u!95 &683193860
 Animator:
   serializedVersion: 7
@@ -6094,6 +6101,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 1
   consumeHint: 1
+  consumable: 1
 --- !u!95 &842422575
 Animator:
   serializedVersion: 7
@@ -6279,6 +6287,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 0
   consumeHint: 0
+  consumable: 1
 --- !u!95 &886676345
 Animator:
   serializedVersion: 7
@@ -9494,6 +9503,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 0
   consumeHint: 0
+  consumable: 1
 --- !u!95 &1196397178
 Animator:
   serializedVersion: 7
@@ -9847,6 +9857,10 @@ PrefabInstance:
     - target: {fileID: 2611120401307275935, guid: 7eabff0852b9d46f4a51f858cb2edab6, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986730532600662202, guid: 7eabff0852b9d46f4a51f858cb2edab6, type: 3}
+      propertyPath: consumable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5731646494494358846, guid: 7eabff0852b9d46f4a51f858cb2edab6, type: 3}
       propertyPath: m_Name
@@ -10423,6 +10437,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 1
   consumeHint: 1
+  consumable: 1
 --- !u!95 &1370839093
 Animator:
   serializedVersion: 7
@@ -10639,6 +10654,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 0
   consumeHint: 0
+  consumable: 1
 --- !u!95 &1445017345
 Animator:
   serializedVersion: 7
@@ -11523,6 +11539,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 1
   consumeHint: 1
+  consumable: 1
 --- !u!95 &1537644128
 Animator:
   serializedVersion: 7
@@ -11753,6 +11770,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 0
   consumeHint: 0
+  consumable: 1
 --- !u!95 &1544915468
 Animator:
   serializedVersion: 7
@@ -20481,6 +20499,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 0
   consumeHint: 0
+  consumable: 1
 --- !u!95 &1633040927
 Animator:
   serializedVersion: 7
@@ -20919,6 +20938,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 1
   consumeHint: 1
+  consumable: 1
 --- !u!95 &1656340107
 Animator:
   serializedVersion: 7
@@ -21104,6 +21124,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 1
   consumeHint: 1
+  consumable: 1
 --- !u!95 &1693849887
 Animator:
   serializedVersion: 7
@@ -21289,6 +21310,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 1
   consumeHint: 1
+  consumable: 1
 --- !u!95 &1704143953
 Animator:
   serializedVersion: 7
@@ -37678,6 +37700,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 1
   consumeHint: 1
+  consumable: 1
 --- !u!95 &1757245041
 Animator:
   serializedVersion: 7
@@ -38066,6 +38089,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 1
   consumeHint: 1
+  consumable: 1
 --- !u!95 &1834478774
 Animator:
   serializedVersion: 7
@@ -40154,6 +40178,7 @@ MonoBehaviour:
   consumableAmount: 1
   giveHint: 1
   consumeHint: 1
+  consumable: 1
 --- !u!95 &2093840462
 Animator:
   serializedVersion: 7

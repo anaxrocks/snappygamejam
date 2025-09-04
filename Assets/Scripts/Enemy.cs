@@ -20,6 +20,7 @@ public class Enemy : MonoBehaviour
     public GameObject key = null;
     public bool dropKey = false;
     public bool isWizard = false;
+    private bool dying = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -35,9 +36,10 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currHealth <= 0)
+        if (currHealth <= 0 && !dying)
         {
             // _collider.enabled = false;
+            dying = true;
             sliderBG.enabled = false;
             agent.enabled = false;
             animator.SetTrigger("Die");
@@ -45,6 +47,11 @@ public class Enemy : MonoBehaviour
             {
                 Wizard _wizard = GetComponent<Wizard>();
                 _wizard.Dead();
+                SoundManager.Instance.PlaySound2D("WizardDie");
+            }
+            else
+            {
+                SoundManager.Instance.PlaySound2D("GolemDie");
             }
         }
         if (trapDamageTimer > 0f)
@@ -97,6 +104,7 @@ public class Enemy : MonoBehaviour
         currHealth -= damage;
         currHealth = Mathf.Max(currHealth, 0);
         slider.fillAmount = currHealth / baseHealth;
+        SoundManager.Instance.PlaySound2D("EnemyHit");
         animator.SetTrigger("Damage");
     }
 
@@ -107,6 +115,6 @@ public class Enemy : MonoBehaviour
             key.transform.position = transform.position;
             //key.SetActive(true);
         }
-        Destroy(gameObject, 1f); 
+        Destroy(gameObject, 0.1f); 
     }
 }

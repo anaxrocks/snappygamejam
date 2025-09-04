@@ -54,10 +54,11 @@ public class Inventory : MonoBehaviour
 
     public void ConsumeItem()
     {
-        if (isSolid && consumeEnabled)
+        Interactable _interactable = itemHeld.GetComponent<Interactable>();
+        if (isSolid && consumeEnabled && _interactable.consumable)
         {
             ChangeState();
-            int amount = itemHeld.GetComponent<Interactable>().consumableAmount;
+            int amount = _interactable.consumableAmount;
             playerCombat._currentAmmo += amount;
             Destroy(itemHeld);
             SoundManager.Instance.PlaySound2D("Consume");

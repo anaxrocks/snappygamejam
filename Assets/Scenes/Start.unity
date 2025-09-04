@@ -451,6 +451,15 @@ MonoBehaviour:
   - groupID: CageDoor
     clips:
     - {fileID: 8300000, guid: 31950afa6851241108fa2fced383a54e, type: 3}
+  - groupID: EnemyHit
+    clips:
+    - {fileID: 8300000, guid: ad0571dfc2839431485d94aaa0c02b78, type: 3}
+  - groupID: GolemDie
+    clips:
+    - {fileID: 8300000, guid: cc1f8078c65c1447e8ea5b37647ff712, type: 3}
+  - groupID: WizardDie
+    clips:
+    - {fileID: 8300000, guid: 30a8137d5f6024093ba9489f3d55e64b, type: 3}
 --- !u!4 &242552469
 Transform:
   m_ObjectHideFlags: 0
@@ -560,7 +569,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

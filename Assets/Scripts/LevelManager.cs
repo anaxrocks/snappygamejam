@@ -48,7 +48,11 @@ public class LevelManager : MonoBehaviour
         Animator _animator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
         _animator.SetTrigger("Die");
         PlayerMovement playerMovement = GameObject.FindAnyObjectByType<PlayerMovement>();
+        Rigidbody2D rb = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
+        rb.linearVelocity = Vector2.zero;
         playerMovement.enabled = false;
+        SpriteRenderer spriteRenderer = GameObject.FindGameObjectWithTag("Player").GetComponent<SpriteRenderer>();
+        spriteRenderer.color = new Color(1.0f, 0.4f, 0.4f, 1f);
         StartCoroutine(CheckPlayer());
     }
 

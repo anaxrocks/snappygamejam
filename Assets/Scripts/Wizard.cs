@@ -28,6 +28,7 @@ public class Wizard : MonoBehaviour
         {
             hasTransferred = true;
             gameObject.GetComponent<SpriteRenderer>().enabled = false;
+            MusicManager.Instance.PlayMusic("Theme", 0.3f);
             _movement.TransferControlToWizard();
             Destroy(gameObject, 1f);
         }

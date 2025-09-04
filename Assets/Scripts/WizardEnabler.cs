@@ -20,6 +20,7 @@ public class WizardEnabler : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            MusicManager.Instance.PlayMusic("Boss", 0.5f);
             _enemy.enabled = true;
             _enemyType.enabled = true;
             Destroy(gameObject);

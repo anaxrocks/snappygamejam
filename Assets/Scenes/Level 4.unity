@@ -4927,7 +4927,6 @@ GameObject:
   - component: {fileID: 623192488}
   - component: {fileID: 623192487}
   - component: {fileID: 623192486}
-  - component: {fileID: 623192485}
   m_Layer: 0
   m_Name: Golem (2)
   m_TagString: Enemy
@@ -4935,18 +4934,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &623192485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 623192484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19370363ce5564d7083bef8217eec9b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!60 &623192486
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5245,7 +5232,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.28125}
+  m_Offset: {x: 0, y: -0.14437485}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5255,7 +5242,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.9375, y: 0.5625}
+  m_Size: {x: 0.9375, y: 0.7875433}
   m_EdgeRadius: 0
 --- !u!114 &632592453
 MonoBehaviour:
@@ -38241,6 +38228,14 @@ PrefabInstance:
     - target: {fileID: 694986442849070654, guid: c2c0969eb2525443eab8d8c935df5d18, type: 3}
       propertyPath: m_Name
       value: Trap (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1099808943732630110, guid: c2c0969eb2525443eab8d8c935df5d18, type: 3}
+      propertyPath: m_Size.y
+      value: 2.3471754
+      objectReference: {fileID: 0}
+    - target: {fileID: 1099808943732630110, guid: c2c0969eb2525443eab8d8c935df5d18, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.055428386
       objectReference: {fileID: 0}
     - target: {fileID: 3408370195770456674, guid: c2c0969eb2525443eab8d8c935df5d18, type: 3}
       propertyPath: m_LocalPosition.x

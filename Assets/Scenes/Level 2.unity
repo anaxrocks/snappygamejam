@@ -2313,7 +2313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 826350963}
   startFilled: 0
-  giveHint: 0
+  giveHint: 1
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -4609,7 +4609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 1395156589}
   startFilled: 0
-  giveHint: 0
+  giveHint: 1
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -5030,7 +5030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 586633973}
   startFilled: 0
-  giveHint: 0
+  giveHint: 1
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -6221,7 +6221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 1327614239}
   startFilled: 0
-  giveHint: 0
+  giveHint: 1
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -17730,7 +17730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 1562613511}
   startFilled: 0
-  giveHint: 0
+  giveHint: 1
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -17976,7 +17976,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 267802890}
   startFilled: 0
-  giveHint: 0
+  giveHint: 1
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -18147,7 +18147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 1877111094}
   startFilled: 0
-  giveHint: 0
+  giveHint: 1
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -49084,7 +49084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 1284956261}
   startFilled: 0
-  giveHint: 0
+  giveHint: 1
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -49556,7 +49556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 507848198}
   startFilled: 0
-  giveHint: 0
+  giveHint: 1
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2

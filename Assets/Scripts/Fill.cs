@@ -46,7 +46,7 @@ public class Fill : MonoBehaviour
             Debug.Log("pressed");
 
             // Only process input if this bottle is in range and no other bottle is active
-            if (inRange && currentActiveBottle == null && !isFilled && !_inventory.isSolid)
+            if (inRange && currentActiveBottle == null && !isFilled && !_inventory.isSolid && _inventory.enabled && _inventory != null)
             {
                 // Store player's position before hiding
                 lastPlayerPosition = _player.transform.position;

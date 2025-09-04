@@ -2549,9 +2549,9 @@ MonoBehaviour:
   _WASD: {fileID: 185767125}
   _SHIFT: {fileID: 1852994407}
   _SPACE: {fileID: 946367384}
-  interactionHintDelay: 3
-  movementHintDelay: 3
-  otherHintsDelay: 5
+  interactionHintDelay: 1
+  movementHintDelay: 1
+  otherHintsDelay: 2
   isStart: 1
 --- !u!114 &562373920
 MonoBehaviour:

@@ -4,9 +4,11 @@ public class Trap : MonoBehaviour
 {
     private Animator animator;
     public float damage;
+    private Inventory _inventory;
 
     void Awake()
     {
+        _inventory = FindFirstObjectByType<Inventory>();
         animator = GetComponent<Animator>();
     }
 

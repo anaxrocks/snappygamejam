@@ -12,25 +12,103 @@ public class PlayerMovement : MonoBehaviour
     private const string _vertical = "Vertical";
     private const string _LastHorizontal = "LastHorizontal";
     private const string _LastVertical = "LastVertical";
+    public bool isFalling = false;
+    public RuntimeAnimatorController wizardController;
+    public bool wizard = false;
+    private Magic magicScript;
+    private SpriteRenderer _spriteRenderer;
+    private Camera _camera;
+    [SerializeField]
+    private float _screenBorder = 50f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+        magicScript = GameObject.FindAnyObjectByType<Magic>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _camera = Camera.main;
     }
 
     // Update is called once per frame
     void Update()
     {
-        _movement.Set(InputManager.movement.x, InputManager.movement.y);
-        _rb.linearVelocity = _movement * _moveSpeed;
-        _animator.SetFloat(_horizontal, _movement.x);
-        _animator.SetFloat(_vertical, _movement.y);
-
-        if (_movement != Vector2.zero)
+        if (magicScript != null && magicScript._hit == true)
         {
-            _animator.SetFloat(_LastHorizontal, _movement.x);
-            _animator.SetFloat(_LastVertical, _movement.y);
+            _movement.Set(-InputManager.movement.x, -InputManager.movement.y);
+        }
+        else
+        {
+            _movement.Set(InputManager.movement.x, InputManager.movement.y);
+        }
+
+        _rb.linearVelocity = _movement * _moveSpeed;
+        PreventPlayerGoingOffScreen();
+
+        if (!wizard)
+        {
+            _animator.SetFloat(_horizontal, _movement.x);
+            _animator.SetFloat(_vertical, _movement.y);
+
+            if (_movement != Vector2.zero)
+            {
+                _animator.SetFloat(_LastHorizontal, _movement.x);
+                _animator.SetFloat(_LastVertical, _movement.y);
+            }
+        }
+        else
+        {
+            HandleWizardAnimation();
         }
     }
+
+     private void PreventPlayerGoingOffScreen()
+    {
+        Vector2 screenPosition = _camera.WorldToScreenPoint(transform.position);
+
+        if ((screenPosition.x < _screenBorder && _rb.linearVelocity.x < 0) ||
+            (screenPosition.x > _camera.pixelWidth - _screenBorder && _rb.linearVelocity.x > 0))
+        {
+            _rb.linearVelocity = new Vector2(0, _rb.linearVelocity.y);
+        }
+
+        if ((screenPosition.y < _screenBorder && _rb.linearVelocity.y < 0) ||
+            (screenPosition.y > _camera.pixelHeight - _screenBorder && _rb.linearVelocity.y > 0))
+        {
+            _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, 0);
+        }
+    }
+
+    public void TransferControlToWizard()
+    {
+        wizard = true;
+        gameObject.GetComponent<Animator>().runtimeAnimatorController = wizardController;
+        GameObject _camera = GameObject.FindGameObjectWithTag("MainCamera");
+        _camera.transform.SetParent(gameObject.transform);
+        gameObject.transform.localScale = Vector3.one;
+        Inventory _inventory = GameObject.FindAnyObjectByType<Inventory>();
+        _inventory.enabled = false;
+    }
+    
+    private void HandleWizardAnimation()
+    {
+        if (wizard)
+        {
+            // Set wizard-specific velocity parameters for animation
+            _animator.SetFloat("velX", _rb.linearVelocity.x);
+            _animator.SetFloat("velY", _rb.linearVelocity.y);
+            
+            // Handle wizard sprite flipping
+            if (_rb.linearVelocity.x < 0)
+            {
+                // Moving left - flip sprite for wizard
+                _spriteRenderer.flipX = wizard;
+            }
+            else if (_rb.linearVelocity.x > 0)
+            {
+                // Moving right - don't flip sprite for wizard
+                _spriteRenderer.flipX = !wizard;
+            }
+        }
+}
 }

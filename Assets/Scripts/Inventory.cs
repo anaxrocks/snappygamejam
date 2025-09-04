@@ -5,11 +5,13 @@ public class Inventory : MonoBehaviour
 {
     // if player is able to pick up an item or not
     public bool isSolid = false;
+    public bool consumeEnabled = false;
     public GameObject itemHeld;
     private SpriteRenderer spriteRenderer;
     private PlayerCombat playerCombat;
     private GameObject _player;
     private GameObject _camera;
+    public bool giveHint = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
@@ -42,29 +44,23 @@ public class Inventory : MonoBehaviour
     {
         if (!isSolid)
         {
-            isSolid = true;
             itemHeld = item;
-            item.transform.SetParent(gameObject.transform);
-            item.transform.localPosition = new Vector3(0, 0, 0);
-            Color currentAlpha = spriteRenderer.color;
-            spriteRenderer.color = new Color(currentAlpha.r, currentAlpha.g, currentAlpha.b, 0.7f);
-            _camera.transform.SetParent(_player.transform);
+            itemHeld.transform.SetParent(gameObject.transform);
+            itemHeld.transform.localPosition = new Vector3(0, 0, 0);
+            ChangeState();
             SoundManager.Instance.PlaySound2D("Pickup");
         }
     }
 
     public void ConsumeItem()
     {
-        if (isSolid)
+        Interactable _interactable = itemHeld.GetComponent<Interactable>();
+        if (isSolid && consumeEnabled && _interactable.consumable)
         {
-            isSolid = false;
-            Color currentAlpha = spriteRenderer.color;
-            spriteRenderer.color = new Color(currentAlpha.r, currentAlpha.g, currentAlpha.b, 1f);
-            int amount = itemHeld.GetComponent<Interactable>().consumableAmount;
+            ChangeState();
+            int amount = _interactable.consumableAmount;
             playerCombat._currentAmmo += amount;
-            Debug.Log("amount: " + amount + "ammo: " + playerCombat._currentAmmo);
             Destroy(itemHeld);
-            _camera.transform.parent = null;
             SoundManager.Instance.PlaySound2D("Consume");
         }
     }
@@ -73,13 +69,27 @@ public class Inventory : MonoBehaviour
     {
         if (isSolid)
         {
-            isSolid = false;
-            Color currentAlpha = spriteRenderer.color;
-            spriteRenderer.color = new Color(currentAlpha.r, currentAlpha.g, currentAlpha.b, 1f);
+            ChangeState();
             itemHeld.transform.parent = null;
-            _camera.transform.parent = null;
             itemHeld = null;
             SoundManager.Instance.PlaySound2D("Drop");
         }
+    }
+
+    public void ChangeState()
+    {
+        if (isSolid)
+        {
+            Color currentAlpha = spriteRenderer.color;
+            spriteRenderer.color = new Color(currentAlpha.r, currentAlpha.g, currentAlpha.b, 1f);
+            _camera.transform.parent = null;
+        }
+        else
+        {
+            Color currentAlpha = spriteRenderer.color;
+            spriteRenderer.color = new Color(currentAlpha.r, currentAlpha.g, currentAlpha.b, 0.7f);
+            _camera.transform.SetParent(_player.transform);
+        }
+        isSolid = !isSolid;
     }
 }

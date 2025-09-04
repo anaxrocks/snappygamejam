@@ -1,3 +1,4 @@
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -5,19 +6,33 @@ public class Interactable : MonoBehaviour
 {
     private Inventory _inventory;
     bool inRange = false;
+    private bool hasInteracted = false;
     public int consumableAmount = 0;
+    public bool giveHint = false;
+    public bool consumeHint = false;
+    public bool consumable = true;
 
-    void Awake()
+    void Start()
     {
         _inventory = GameObject.FindAnyObjectByType<Inventory>();
     }
-    void Update()
+    void HandleInteraction()
     {
-        if (inRange && InputManager.interactionPressed)
+        if (inRange && InputManager.interactionPressed && _inventory.enabled && _inventory != null)
         {
+            hasInteracted = true;
             // Perform interaction here
+            if (giveHint && _inventory.itemHeld == null && !consumeHint)
+            {
+                giveHint = false;
+                Hints.Instance.TriggerQHint();
+            }
+            else if (giveHint && _inventory.itemHeld == null && consumeHint)
+            {
+                giveHint = false;
+                Hints.Instance.TriggerShiftHint();
+            }
             _inventory.AddItem(gameObject);
-            Debug.Log("Added item");
         }
     }
     void OnTriggerEnter2D(Collider2D other)
@@ -25,13 +40,33 @@ public class Interactable : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             inRange = true;
+            hasInteracted = false;
+            if (giveHint)
+            {
+                Hints.Instance.TriggerEHint();
+            }
+            StartCoroutine(CheckForInteraction());
         }
     }
 
-    void OnTriggerExit2D(Collider2D other) {
+    void OnTriggerExit2D(Collider2D other)
+    {
         if (other.CompareTag("Player"))
         {
             inRange = false;
+            StopAllCoroutines();
         }
+    }
+    private IEnumerator CheckForInteraction()
+    {
+        while (inRange && !hasInteracted)
+        {
+            if (InputManager.interactionPressed)
+            {
+                HandleInteraction();
+                yield break;
+            }
+            yield return null;
+        }   
     }
 }

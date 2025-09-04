@@ -8,18 +8,20 @@ public class EnemyType : MonoBehaviour
     private Animator _animator;
     public bool pathfind = false;
     public bool patrol = false;
+    public bool wizard = false;
     public Transform[] points;
     private int destPoint = 0;
     private NavMeshAgent agent;
     public float speed = 1f;
-    
+
     [Header("Smart Patrol Settings")]
     public float chaseRange = 5f; // How close player needs to be to start chasing
     public float patrolWidth = 3f; // How far from the patrol line the player can be
     public float returnDistance = 8f; // How far player can go before enemy gives up chase
-    
+
     private bool isChasing = false;
     private Vector3 lastPatrolTarget;
+    private SpriteRenderer spriteRenderer;
 
     void Start()
     {
@@ -35,7 +37,11 @@ public class EnemyType : MonoBehaviour
             GotoNextPoint();
         }
         _animator = GetComponent<Animator>();
-        _animator.SetBool("isWalking", true); // might need ot change if enemies r idle
+        if (!wizard)
+        {
+            _animator.SetBool("isWalking", true); // might need ot change if enemies r idle
+        }
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void GotoNextPoint()
@@ -50,6 +56,24 @@ public class EnemyType : MonoBehaviour
 
     void Update()
     {
+        if (wizard)
+        {
+            _animator.SetFloat("velX", agent.velocity.x);
+            _animator.SetFloat("velY", agent.velocity.y);
+        }
+
+        // Flip the sprite based on movement direction
+        if (agent.velocity.x < 0)
+        {
+            // Moving left
+            spriteRenderer.flipX = wizard;
+        }
+        else if (agent.velocity.x > 0)
+        {
+            // Moving right
+            spriteRenderer.flipX = !wizard;
+        }
+
         if (pathfind)
         {
             if (!target.activeInHierarchy)
@@ -65,12 +89,11 @@ public class EnemyType : MonoBehaviour
             }
             return;
         }
-
         // Smart patrol behavior
         if (patrol && target != null)
         {
             float distanceToPlayer = Vector3.Distance(transform.position, target.transform.position);
-            
+
             if (!isChasing)
             {
                 // Check if player is close enough and within patrol area to start chasing
@@ -122,7 +145,7 @@ public class EnemyType : MonoBehaviour
 
         // Find the closest point on the patrol path to the player
         Vector3 closestPoint = GetClosestPointOnPatrolPath(target.transform.position);
-        
+
         // Check if player is within the patrol width
         float distanceFromPath = Vector3.Distance(target.transform.position, closestPoint);
         return distanceFromPath <= patrolWidth;
@@ -149,11 +172,11 @@ public class EnemyType : MonoBehaviour
         {
             int nextIndex = (i + 1) % points.Length;
             Vector3 pointOnLine = GetClosestPointOnLineSegment(
-                points[i].position, 
-                points[nextIndex].position, 
+                points[i].position,
+                points[nextIndex].position,
                 playerPos
             );
-            
+
             float distance = Vector3.Distance(playerPos, pointOnLine);
             if (distance < closestDistance)
             {

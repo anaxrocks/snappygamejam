@@ -39,7 +39,7 @@ public class LevelManager : MonoBehaviour
 
     public void LoadScene(string name)
     {
-        SceneManager.LoadSceneAsync(name);
+        SceneManager.LoadSceneAsync("Level 5");
     }
 
     public void LoadCutScene()

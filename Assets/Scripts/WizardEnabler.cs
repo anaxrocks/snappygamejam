@@ -22,6 +22,7 @@ public class WizardEnabler : MonoBehaviour
         {
             _enemy.enabled = true;
             _enemyType.enabled = true;
+            Destroy(gameObject);
         }
     }
 }

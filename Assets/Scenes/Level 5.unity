@@ -210,6 +210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 1799067471}
   startFilled: 0
+  giveHint: 0
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -9935,6 +9936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 2073028513}
   startFilled: 0
+  giveHint: 0
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -13560,6 +13562,7 @@ MonoBehaviour:
   isSolid: 0
   consumeEnabled: 1
   itemHeld: {fileID: 0}
+  giveHint: 0
 --- !u!1001 &975647849
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34685,7 +34688,7 @@ GameObject:
   - component: {fileID: 1105264703}
   - component: {fileID: 1105264702}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Magic field
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35916,6 +35919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 1190783185}
   startFilled: 0
+  giveHint: 0
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -42803,6 +42807,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 528420522}
   startFilled: 0
+  giveHint: 0
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -43030,6 +43035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 1239642750}
   startFilled: 0
+  giveHint: 0
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -43902,6 +43908,7 @@ MonoBehaviour:
   isFalling: 0
   wizardController: {fileID: 9100000, guid: ceb8c923b10fd0149a478e79f44f4286, type: 2}
   wizard: 0
+  _screenBorder: 50
 --- !u!114 &2067056252
 MonoBehaviour:
   m_ObjectHideFlags: 0

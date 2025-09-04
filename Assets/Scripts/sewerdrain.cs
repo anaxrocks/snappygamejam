@@ -12,8 +12,10 @@ public class sewerdrain : MonoBehaviour
     private Transform _source;
     public float speed = 5f;
     private GameObject _camera;
+    
+    // Add this flag to prevent multiple coroutines
+    private bool isMovingPlayer = false;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         GameObject _player = GameObject.FindGameObjectWithTag("Player");
@@ -28,18 +30,7 @@ public class sewerdrain : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && !_movement.isFalling)
-        {
-            if (_inventory.isSolid)
-            {
-                _inventory.ThrowItem();
-            }
-            StartCoroutine(MovePlayer(rb));
-        }
-    }
-        void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player") && !_movement.isFalling)
+        if (collision.CompareTag("Player") && !_movement.isFalling && !isMovingPlayer)
         {
             if (_inventory.isSolid)
             {
@@ -49,8 +40,14 @@ public class sewerdrain : MonoBehaviour
         }
     }
 
+    // Remove OnTriggerStay2D entirely - it's not needed and causes the problem
+    // If you need it for some reason, add the same !isMovingPlayer check
+
     IEnumerator MovePlayer(Rigidbody2D playerRb)
     {
+        // Set flag to prevent multiple coroutines
+        isMovingPlayer = true;
+        
         // disable player controls
         PlayerMovement movement = playerRb.GetComponent<PlayerMovement>();
         _camera.transform.SetParent(_source);
@@ -61,10 +58,11 @@ public class sewerdrain : MonoBehaviour
         // calc direction to move in
         Vector2 dir = (destination.position - playerRb.transform.position).normalized;
 
-        // move 
-        while (Vector2.Distance(playerRb.position, destination.position) > 0.1f)
+        // move with a more precise stopping condition
+        while (Vector2.Distance(playerRb.position, destination.position) > 0.05f)
         {
-            rb.linearVelocity = dir * speed; yield return null;
+            rb.linearVelocity = dir * speed;
+            yield return null;
         }
 
         // stop
@@ -76,5 +74,8 @@ public class sewerdrain : MonoBehaviour
         _collider.isTrigger = false;
         _camera.transform.parent = null;
         _sprite.enabled = true;
+        
+        // Reset flag when movement is complete
+        isMovingPlayer = false;
     }
 }

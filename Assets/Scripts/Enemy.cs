@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.AI;
 using UnityEngine.InputSystem.Editor;
+using UnityEngine.U2D.IK;
 
 public class Enemy : MonoBehaviour
 {
@@ -37,13 +38,14 @@ public class Enemy : MonoBehaviour
         if (currHealth <= 0)
         {
             // _collider.enabled = false;
-            if (isWizard)
-            {
-                gameObject.GetComponent<Wizard>().isDead = true;
-            }
             sliderBG.enabled = false;
             agent.enabled = false;
             animator.SetTrigger("Die");
+            if (isWizard)
+            {
+                Wizard _wizard = GetComponent<Wizard>();
+                _wizard.Dead();
+            }
         }
         if (trapDamageTimer > 0f)
         {
@@ -95,7 +97,7 @@ public class Enemy : MonoBehaviour
         if (dropKey)
         {
             key.transform.position = transform.position;
-            key.SetActive(true);
+            //key.SetActive(true);
         }
         Destroy(gameObject, 1f); 
     }

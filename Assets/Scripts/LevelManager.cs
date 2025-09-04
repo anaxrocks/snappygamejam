@@ -48,7 +48,7 @@ public class LevelManager : MonoBehaviour
         if (scene.name == "Level 5")
         {
             _cauldron = GameObject.Find("Cauldron");
-            _camera = GameObject.FindGameObjectWithTag("MainCamera");
+            _camera = GameObject.FindGameObjectWithTag("Player");
             SceneManager.LoadSceneAsync("Cutscene", LoadSceneMode.Additive);
         }
         else

@@ -17,6 +17,9 @@ public class PlayerMovement : MonoBehaviour
     public bool wizard = false;
     private Magic magicScript;
     private SpriteRenderer _spriteRenderer;
+    private Camera _camera;
+    [SerializeField]
+    private float _screenBorder = 50f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
@@ -24,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
         _animator = GetComponent<Animator>();
         magicScript = GameObject.FindAnyObjectByType<Magic>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
+        _camera = Camera.main;
     }
 
     // Update is called once per frame
@@ -31,33 +35,59 @@ public class PlayerMovement : MonoBehaviour
     {
         if (magicScript != null && magicScript._hit == true)
         {
-            Debug.Log("movement BAD");
             _movement.Set(-InputManager.movement.x, -InputManager.movement.y);
         }
         else
         {
             _movement.Set(InputManager.movement.x, InputManager.movement.y);
         }
-        _rb.linearVelocity = _movement * _moveSpeed;
-        _animator.SetFloat(_horizontal, _movement.x);
-        _animator.SetFloat(_vertical, _movement.y);
 
-        if (_movement != Vector2.zero)
+        _rb.linearVelocity = _movement * _moveSpeed;
+        PreventPlayerGoingOffScreen();
+
+        if (!wizard)
         {
-            _animator.SetFloat(_LastHorizontal, _movement.x);
-            _animator.SetFloat(_LastVertical, _movement.y);
+            _animator.SetFloat(_horizontal, _movement.x);
+            _animator.SetFloat(_vertical, _movement.y);
+
+            if (_movement != Vector2.zero)
+            {
+                _animator.SetFloat(_LastHorizontal, _movement.x);
+                _animator.SetFloat(_LastVertical, _movement.y);
+            }
         }
-        HandleWizardAnimation();
+        else
+        {
+            HandleWizardAnimation();
+        }
+    }
+
+     private void PreventPlayerGoingOffScreen()
+    {
+        Vector2 screenPosition = _camera.WorldToScreenPoint(transform.position);
+
+        if ((screenPosition.x < _screenBorder && _rb.linearVelocity.x < 0) ||
+            (screenPosition.x > _camera.pixelWidth - _screenBorder && _rb.linearVelocity.x > 0))
+        {
+            _rb.linearVelocity = new Vector2(0, _rb.linearVelocity.y);
+        }
+
+        if ((screenPosition.y < _screenBorder && _rb.linearVelocity.y < 0) ||
+            (screenPosition.y > _camera.pixelHeight - _screenBorder && _rb.linearVelocity.y > 0))
+        {
+            _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, 0);
+        }
     }
 
     public void TransferControlToWizard()
     {
         wizard = true;
         gameObject.GetComponent<Animator>().runtimeAnimatorController = wizardController;
-        gameObject.transform.localScale = Vector2.one;
-        gameObject.GetComponent<Inventory>().enabled = false;
         GameObject _camera = GameObject.FindGameObjectWithTag("MainCamera");
         _camera.transform.SetParent(gameObject.transform);
+        gameObject.transform.localScale = Vector3.one;
+        Inventory _inventory = GameObject.FindAnyObjectByType<Inventory>();
+        _inventory.enabled = false;
     }
     
     private void HandleWizardAnimation()

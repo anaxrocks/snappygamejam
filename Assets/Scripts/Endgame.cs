@@ -8,14 +8,14 @@ public class Endgame : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        _movement =  player.GetComponent<PlayerMovement>();
+        _movement = player.GetComponent<PlayerMovement>();
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player") && _movement.wizard)
         {
             _movement.enabled = false;
-            player.SetActive(false);
+            //player.SetActive(false);
             LevelManager.Instance.LoadCutScene();
         }
     }

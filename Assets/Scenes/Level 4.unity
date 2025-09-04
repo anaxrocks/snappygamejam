@@ -226,7 +226,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 1261244581}
   startFilled: 0
-  unfilledSprite: {fileID: 0}
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -591,7 +590,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 1037774725}
   startFilled: 0
-  unfilledSprite: {fileID: 0}
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -3151,7 +3149,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 1904514051}
   startFilled: 0
-  unfilledSprite: {fileID: 0}
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -4014,7 +4011,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 1016697970}
   startFilled: 0
-  unfilledSprite: {fileID: 0}
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -5080,6 +5076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyType
   pathfind: 0
   patrol: 1
+  wizard: 0
   points:
   - {fileID: 1378663373}
   - {fileID: 384043528}
@@ -5155,6 +5152,7 @@ MonoBehaviour:
   sliderBG: {fileID: 1332881394}
   key: {fileID: 1306731748}
   dropKey: 1
+  isDead: 0
 --- !u!95 &623192491
 Animator:
   serializedVersion: 7
@@ -20802,7 +20800,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 1576718401}
   startFilled: 0
-  unfilledSprite: {fileID: 0}
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -39997,6 +39994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   _moveSpeed: 5
   isFalling: 0
+  wizardController: {fileID: 0}
 --- !u!114 &2067056252
 MonoBehaviour:
   m_ObjectHideFlags: 0

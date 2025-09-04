@@ -18,6 +18,7 @@ public class Enemy : MonoBehaviour
     private float trapDamageTimer = 0f;
     public GameObject key = null;
     public bool dropKey = false;
+    public bool isWizard = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -35,7 +36,11 @@ public class Enemy : MonoBehaviour
     {
         if (currHealth <= 0)
         {
-            _collider.enabled = false;
+            // _collider.enabled = false;
+            if (isWizard)
+            {
+                gameObject.GetComponent<Wizard>().isDead = true;
+            }
             sliderBG.enabled = false;
             agent.enabled = false;
             animator.SetTrigger("Die");
@@ -70,7 +75,7 @@ public class Enemy : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.collider.CompareTag("Player"))
+        if (other.collider.CompareTag("Player") && currHealth > 0)
         {
             animator.SetTrigger("Attack");
             LevelManager.Instance.KillPlayer();

@@ -23,6 +23,7 @@ public class Floor : MonoBehaviour
             _movement.isFalling = false;
             _movement.enabled = true;
             rb.gravityScale = 0f;
+            SoundManager.Instance.PlaySound2D("Land");
         }
     }
 }

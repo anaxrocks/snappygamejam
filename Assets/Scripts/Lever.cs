@@ -24,6 +24,7 @@ public class Lever : MonoBehaviour
         {
             isActivated = !isActivated;
             _animator.SetBool("isActivated", isActivated);
+            SoundManager.Instance.PlaySound2D("Lever");
             if (forDoor)
             {
                 foreach (Door door in doors)
@@ -59,6 +60,7 @@ public class Lever : MonoBehaviour
         if (!go) return;
         if (gameObjectIsActivated)
         {
+            SoundManager.Instance.PlaySound2D("LightTorches");
             gameObjectIsActivated = false;
             go.SetActive(false);
         }

@@ -11503,11 +11503,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23e8c974dcf3e5343abd6ca7584aa84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  baseHealth: 20
+  baseHealth: 1
   slider: {fileID: 699702798}
   sliderBG: {fileID: 1914507642}
   key: {fileID: 5731646494494358846, guid: 7eabff0852b9d46f4a51f858cb2edab6, type: 3}
-  dropKey: 1
+  dropKey: 0
 --- !u!195 &805584377
 NavMeshAgent:
   m_ObjectHideFlags: 0

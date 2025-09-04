@@ -888,7 +888,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fill
   particles: {fileID: 478926984}
   startFilled: 0
-  unfilledSprite: {fileID: 0}
+  giveHint: 0
   teleportDistance: 1
   obstacleLayer:
     serializedVersion: 2
@@ -1439,6 +1439,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interactable
   consumableAmount: 1
+  giveHint: 0
+  consumeHint: 0
 --- !u!114 &145825040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1806,6 +1808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95b2f9f7d592d3f47b840967a147d1d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  giveHint: 0
 --- !u!212 &179160275
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2217,6 +2220,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interactable
   consumableAmount: 1
+  giveHint: 0
+  consumeHint: 0
 --- !u!212 &376777490
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3916,6 +3921,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interactable
   consumableAmount: 1
+  giveHint: 0
+  consumeHint: 0
 --- !u!212 &660667818
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5062,6 +5069,7 @@ MonoBehaviour:
   isSolid: 0
   consumeEnabled: 1
   itemHeld: {fileID: 0}
+  giveHint: 0
 --- !u!1 &972302962
 GameObject:
   m_ObjectHideFlags: 0
@@ -5452,6 +5460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95b2f9f7d592d3f47b840967a147d1d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  giveHint: 0
 --- !u!114 &1070455580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6235,6 +6244,7 @@ MonoBehaviour:
   - {fileID: 1671614160}
   go: {fileID: 0}
   forDoor: 1
+  giveHint: 0
 --- !u!61 &1230864527
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6878,6 +6888,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interactable
   consumableAmount: 1
+  giveHint: 0
+  consumeHint: 0
 --- !u!114 &1431802189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7368,6 +7380,7 @@ MonoBehaviour:
   sliderBG: {fileID: 1990715680}
   key: {fileID: 0}
   dropKey: 0
+  isWizard: 0
 --- !u!50 &1518583520
 Rigidbody2D:
   serializedVersion: 5
@@ -7767,6 +7780,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interactable
   consumableAmount: 1
+  giveHint: 0
+  consumeHint: 0
 --- !u!212 &1549685249
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8426,6 +8441,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interactable
   consumableAmount: 1
+  giveHint: 0
+  consumeHint: 0
 --- !u!212 &1665938476
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9458,6 +9475,7 @@ MonoBehaviour:
   interactionHintDelay: 5
   movementHintDelay: 3
   otherHintsDelay: 5
+  isStart: 1
 --- !u!1 &1928225165
 GameObject:
   m_ObjectHideFlags: 0
@@ -9553,6 +9571,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interactable
   consumableAmount: 1
+  giveHint: 0
+  consumeHint: 0
 --- !u!212 &1928225168
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9702,6 +9722,7 @@ MonoBehaviour:
   sliderBG: {fileID: 707359978}
   key: {fileID: 5731646494494358846, guid: 7eabff0852b9d46f4a51f858cb2edab6, type: 3}
   dropKey: 1
+  isWizard: 0
 --- !u!195 &1949523140
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -10424,6 +10445,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   _moveSpeed: 5
   isFalling: 0
+  wizardController: {fileID: 0}
+  wizard: 0
+  _screenBorder: 50
 --- !u!114 &2067056252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10664,6 +10688,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interactable
   consumableAmount: 1
+  giveHint: 0
+  consumeHint: 0
 --- !u!212 &2087917077
 SpriteRenderer:
   m_ObjectHideFlags: 0

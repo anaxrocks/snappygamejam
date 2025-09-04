@@ -73,7 +73,7 @@ public class Enemy : MonoBehaviour
         if (other.collider.CompareTag("Player"))
         {
             animator.SetTrigger("Attack");
-            //LevelManager.Instance.RestartScene();
+            LevelManager.Instance.KillPlayer();
         }
     }
 

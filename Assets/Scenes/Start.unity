@@ -386,8 +386,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MusicLibrary
   tracks:
-  - trackName: Level 1
-    clip: {fileID: 8300000, guid: 452a8692dc1b84ba2a8b5b50620d995b, type: 3}
+  - trackName: Boss
+    clip: {fileID: 8300000, guid: 85702dad5febd48969a7b5ed8ccd5f9b, type: 3}
   - trackName: Theme
     clip: {fileID: 8300000, guid: 3970599797b5c46749a9aec5444a71c6, type: 3}
 --- !u!114 &242552468
@@ -665,6 +665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MusicManager
   musicLibrary: {fileID: 242552467}
   musicSource: {fileID: 679173140}
+  playingTrack: 
 --- !u!1 &997573548
 GameObject:
   m_ObjectHideFlags: 0

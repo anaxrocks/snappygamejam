@@ -10462,9 +10462,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Combat
   _projectilePrefab: {fileID: 6045339983488446406, guid: 09d4b7f52000c7a4fbb9d2e59057c2b2, type: 3}
   _firePoint: {fileID: 981714305}
-  _attackCooldown: 0.1
+  _attackCooldown: 0.4
   _maxCapacity: 50
-  _currentAmmo: 0
+  _currentAmmo: 50
   _canAttack: 1
 --- !u!70 &2067056253
 CapsuleCollider2D:
